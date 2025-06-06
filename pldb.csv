@@ -1,0 +1,820 @@
+# vim: set tabstop=15:
+
+0	mpers	masculine captive
+nominative	więzień	więźniowie
+genitive	więźnia	więźniów
+dative	więźniowi	więźniom
+accusative	więźnia	więźniów
+instrumental	więźniem	więźniami
+locative	więźniu	więźniach
+vocative	więźniu	więźniowie
+
+1	f	feminine captive
+nominative	więźniarka	więźniarki
+genitive	więźniarki	więźniarek
+dative	więźniarce	więźniarkom
+accusative	więźniarkę	więźniarki
+instrumental	więźniarką	więźniarkami
+locative	więźniarce	więźniarkach
+vocative	więźniarko	więźniarki
+
+2	minan	year	x
+nominative	rok	lata
+genitive	roku	lat
+dative	rokowi	latom
+accusative	rok	lata
+instrumental	rokiem	latami
+locative	roku	latach
+vocative	roku	latmalea
+
+3	minan	comment
+nominative	komentarz	komentarze
+genitive	komentarza	komentarzy
+dative	komentarzowi	komentarzom
+accusative	komentarz	komentarze
+instrumental	komentarzem	komentarzami
+locative	komentarzu	komentarzach
+vocative	komentarzu	komentarze
+
+4	minan	century
+nominative	wiek	wieki
+genitive	wieku	wieków
+dative	wiekowi	wiekom
+accusative	wiek	wieki
+instrumental	wiekiem	wiekami
+locative	wieku	wiekach
+vocative	wieku	wieki
+
+5	n	lid
+nominative	wieko	wieka
+genitive	wieka	wiek
+dative	wieku	wiekom
+accusative	wieko	wieka
+instrumental	wiekiem	wiekami
+locative	wieku	wiekach
+vocative	wieko	wieka
+
+6	f	eyelid
+nominative	powieka	powieki
+genitive	powieki	powiek
+dative	powiece	powiekom
+accusative	powiekę	powieki
+instrumental	powieką	powiekami
+locative	powiece	powiekach
+vocative	powieko	powieki
+
+7	n	place
+nominative	miejsce	miejsca
+genitive	miejsca	miejsc
+dative	miejscu	miejscom
+accusative	miejsce	miejsca
+instrumental	miejscem	miejscami
+locative	miejscu	miejscach
+vocative	miejsce	miejsca
+
+8	f	seat reservation
+nominative	miejscówka	miejscówki
+genitive	miejscówki	miejscówek
+dative	miejscówce	miejscówkom
+accusative	miejscówkę	miejscówki
+instrumental	miejscówką	miejscówkami
+locative	miejscówce	miejscówkach
+vocative	miejscówko	miejscówki
+
+9	f	human settlement
+nominative	miejscowość	miejscowości
+genitive	miejscowości	miejscowości
+dative	miejscowości	miejscowościom
+accusative	miejscowość	miejscowości
+instrumental	miejscowością	miejscowościami
+locative	miejscowości	miejscowościach
+vocative	miejscowości	miejscowości
+
+10	n	town
+nominative	miasto	miasta
+genitive	miasta	miast
+dative	miastu	miastom
+accusative	miasto	miasta
+instrumental	miastem	miastami
+locative	mieście	miastach
+vocative	miasto	miasta
+
+11	minan	percent
+nominative	procent	procenty
+genitive	procentu	procentów
+dative	procentowi	procentom
+accusative	procent	procenty
+instrumental	procentem	procentami
+locative	procencie	procentach
+vocative	procencie	procenty
+
+12	f	work
+nominative	praca	prace
+genitive	pracy	prac
+dative	pracy	pracom
+accusative	pracę	prace
+instrumental	pracą	pracami
+locative	pracy	pracach
+vocative	praco	prace
+
+13	mpers	employer	x
+nominative	pracodawca	pracodawcy
+genitive	pracodawcy	pracodawców
+dative	pracodawcy	pracodawcom
+accusative	pracodawcę	pracodawców
+instrumental	pracodawcą	pracodawcami
+locative	pracodawcy	pracodawcach
+vocative	pracodawco	pracodawcy
+
+14	mpers	employee
+nominative	pracownik	pracownicy
+genitive	pracownika	pracowników
+dative	pracownikowi	pracownikom
+accusative	pracownika	pracowników
+instrumental	pracownikiem	pracownikami
+locative	pracowniku	pracownikach
+vocative	pracowniku	pracownicy
+
+15	mpers	giver, donor	x
+nominative	dawca	dawcy
+genitive	dawcy	dawców
+dative	dawcy	dawcom
+accusative	dawcę	dawców
+instrumental	dawcą	dawcami
+locative	dawcy	dawcach
+vocative	dawco	dawcy
+
+16	minan	regard
+nominative	wzgląd	względy
+genitive	względu	względów
+dative	względowi	względom
+accusative	wzgląd	względy
+instrumental	względem	względami
+locative	względzie	względach
+vocative	względzie	względy
+
+17	minan	time
+nominative	czas	czasy
+genitive	czasu	czasów
+dative	czasowi	czasom
+accusative	czas	czasy
+instrumental	czasem	czasami
+locative	czasie	czasach
+vocative	czasie	czasy
+
+18	minan	verb
+nominative	czasownik	czasowniki
+genitive	czasownika	czasowników
+dative	czasownikowi	czasownikom
+accusative	czasownik	czasowniki
+instrumental	czasownikiem	czasownikami
+locative	czasowniku	czasownikach
+vocative	czasowniku	czasowniki
+
+19	minan	topic
+nominative	temat	tematy
+genitive	tematu	tematów
+dative	tematowi	tematom
+accusative	temat	tematy
+instrumental	tematem	tematami
+locative	temacie	tematach
+vocative	temacie	tematy
+
+20	n	child	x
+nominative	dziecko	dzieci
+genitive	dziecka	dzieci
+dative	dziecku	dzieciom
+accusative	dziecko	dzieci
+instrumental	dzieckiem	dziećmi
+locative	dziecku	dzieciach
+vocative	dziecko	dzieci
+
+21	f	street
+nominative	ulica	ulice
+genitive	ulicy	ulic
+dative	ulicy	ulicom
+accusative	ulicę	ulice
+instrumental	ulicą	ulicami
+locative	ulicy	ulicach
+vocative	ulico	ulice
+
+22	f	piece
+nominative	część	części
+genitive	części	części
+dative	części	częściom
+accusative	część	części
+instrumental	częścią	częściami
+locative	części	częściach
+vocative	części	części
+
+23	n	apartment
+nominative	mieszkanie	mieszkania
+genitive	mieszkania	mieszkań
+dative	mieszkaniu	mieszkaniom
+accusative	mieszkanie	mieszkania
+instrumental	mieszkaniem	mieszkaniami
+locative	mieszkaniu	mieszkaniach
+vocative	mieszkanie	mieszkania
+
+24	mpers	inhabitant
+nominative	mieszkaniec	mieszkańcy
+genitive	mieszkańca	mieszkańców
+dative	mieszkańcowi	mieszkańcom
+accusative	mieszkańca	mieszkańców
+instrumental	mieszkańcem	mieszkańcami
+locative	mieszkańcu	mieszkańcach
+vocative	mieszkańcze	mieszkańcy
+
+25	f	issue
+nominative	sprawa	sprawy
+genitive	sprawy	spraw
+dative	sprawie	sprawom
+accusative	sprawę	sprawy
+instrumental	sprawą	sprawami
+locative	sprawie	sprawach
+vocative	sprawo	sprawy
+
+26	minan	manner
+nominative	sposób	sposoby
+genitive	sposobu	sposobów
+dative	sposobowi	sposobom
+accusative	sposób	sposoby
+instrumental	sposobem	sposobami
+locative	sposobie	sposobach
+vocative	sposobie	sposoby
+
+27	f	hour
+nominative	godzina	godziny
+genitive	godziny	godzin
+dative	godzinie	godzinom
+accusative	godzinę	godziny
+instrumental	godziną	godzinami
+locative	godzinie	godzinach
+vocative	godzino	godziny
+
+28	minan	country
+nominative	kraj	kraje
+genitive	kraju	krajów
+dative	krajowi	krajom
+accusative	kraj	kraje
+instrumental	krajem	krajami
+locative	kraju	krajach
+vocative	kraju	kraje
+
+29	f	land (country or region)
+nominative	kraina	krainy
+genitive	krainy	krain
+dative	krainie	krainom
+accusative	krainę	krainy
+instrumental	krainą	krainami
+locative	krainie	krainach
+vocative	kraino	krainy
+
+30	f	side
+nominative	strona	strony
+genitive	strony	stron
+dative	stronie	stronom
+accusative	stronę	strony
+instrumental	stroną	stronami
+locative	stronie	stronach
+vocative	strono	strony
+
+31	f	company (in legal context, a corporation)
+nominative	firma	firmy
+genitive	firmy	firm
+dative	firmie	firmom
+accusative	firmę	firmy
+instrumental	firmą	firmami
+locative	firmie	firmach
+vocative	firmo	firmy
+
+32	minan	case (eset)
+nominative	raz	razy
+genitive	razu	razów
+dative	razowi	razom
+accusative	raz	razy
+instrumental	razem	razami
+locative	razie	razach
+vocative	razie	razy
+
+33	n	life
+nominative	życie	życia
+genitive	życia	żyć
+dative	życiu	życiom
+accusative	życie	życia
+instrumental	życiem	życiami
+locative	życiu	życiach
+vocative	życie	życia
+
+34	f	number
+nominative	liczba	liczby
+genitive	liczby	liczb
+dative	liczbie	liczbom
+accusative	liczbę	liczby
+instrumental	liczbą	liczbami
+locative	liczbie	liczbach
+vocative	liczbo	liczby
+
+35	f	quantity
+nominative	ilość	ilości
+genitive	ilości	ilości
+dative	ilości	ilościom
+accusative	ilość	ilości
+instrumental	ilością	ilościami
+locative	ilości	ilościach
+vocative	ilości	ilości
+
+36	minan	participation
+nominative	udział	udziały
+genitive	udziału	udziałów
+dative	udziałowi	udziałom
+accusative	udział	udziały
+instrumental	udziałem	udziałami
+locative	udziale	udziałach
+vocative	udziale	udziały
+
+37	minan	order
+nominative	porządek	porządki
+genitive	porządku	porządków
+dative	porządkowi	porządkom
+accusative	porządek	porządki
+instrumental	porządkiem	porządkami
+locative	porządku	porządkach
+vocative	porządku	porządki
+
+38	minan	atom
+nominative	atom	atomy
+genitive	atomu	atomów
+dative	atomowi	atomom
+accusative	atom	atomy
+instrumental	atomem	atomami
+locative	atomie	atomach
+vocative	atomie	atomy
+
+39	minan	house
+nominative	dom	domy
+genitive	domu	domów
+dative	domowi	domom
+accusative	dom	domy
+instrumental	domem	domami
+locative	domu	domach
+vocative	domu	domy
+
+40	mpers	household member
+nominative	domownik	domownicy
+genitive	domownika	domowników
+dative	domownikowi	domownikom
+accusative	domownika	domowników
+instrumental	domownikiem	domownikami
+locative	domowniku	domownikach
+vocative	domowniku	domownicy
+
+41	mpers	homeless (man)	x
+nominative	bezdomny	bezdomni
+genitive	bezdomnego	bezdomnych
+dative	bezdomnemu	bezdomnym
+accusative	bezdomnego	bezdomnych
+instrumental	bezdomnym	bezdomnymi
+locative	bezdomnym	bezdomnych
+vocative	bezdomny	bezdomni
+
+42	f	truth
+nominative	prawda	prawdy
+genitive	prawdy	prawd
+dative	prawdzie	prawdom
+accusative	prawdę	prawdy
+instrumental	prawdą	prawdami
+locative	prawdzie	prawdach
+vocative	prawdo	prawdy
+
+43	f	thing
+nominative	rzecz	rzeczy
+genitive	rzeczy	rzeczy
+dative	rzeczy	rzeczom
+accusative	rzecz	rzeczy
+instrumental	rzeczą	rzeczami
+locative	rzeczy	rzeczach
+vocative	rzeczy	rzeczy
+
+44	n	office (place)
+nominative	biuro	biura
+genitive	biura	biur
+dative	biuru	biurom
+accusative	biuro	biura
+instrumental	biurem	biurami
+locative	biurze	biurach
+vocative	biuro	biura
+
+45	minan	-time (one time, instance, occurrence)
+nominative	raz	razy
+genitive	razu	razy
+dative	razowi	razom
+accusative	raz	razy
+instrumental	razem	razami
+locative	razie	razach
+vocative	razie	razy
+
+46	minan	accident, instance, case
+nominative	przypadek	przypadki
+genitive	przypadku	przypadków
+dative	przypadkowi	przypadkom
+accusative	przypadek	przypadki
+instrumental	przypadkiem	przypadkami
+locative	przypadku	przypadkach
+vocative	przypadku	przypadki
+
+47	minan	grammatical case
+nominative	przypadek	przypadki
+genitive	przypadka	przypadków
+dative	przypadkowi	przypadkom
+accusative	przypadek	przypadki
+instrumental	przypadkiem	przypadkami
+locative	przypadku	przypadkach
+vocative	przypadku	przypadki
+
+48	mpers	man
+nominative	mężczyzna	mężczyźni
+genitive	mężczyzny	mężczyzn
+dative	mężczyźnie	mężczyznom
+accusative	mężczyznę	mężczyzn
+instrumental	mężczyzną	mężczyznami
+locative	mężczyźnie	mężczyznach
+vocative	mężczyzno	mężczyźni
+
+49	f	manhood, masculinity
+nominative	męskość	męskości
+genitive	męskości	męskości
+dative	męskości	męskościom
+accusative	męskość	męskości
+instrumental	męskością	męskościami
+locative	męskości	męskościach
+vocative	męskości	męskości
+
+50	mpers	recipient, taker (masculine)	x
+nominative	biorca	biorcy
+genitive	biorcy	biorców
+dative	biorcy	biorcom
+accusative	biorcę	biorców
+instrumental	biorcą	biorcami
+locative	biorcy	biorcach
+vocative	biorco	biorcy
+
+51	minan	blanket
+nominative	koc	koce
+genitive	koca	koców
+dative	kocowi	kocom
+accusative	koc	koce
+instrumental	kocem	kocami
+locative	kocu	kocach
+vocative	kocu	koce
+
+52	n	state (állam)
+nominative	państwo	państwa
+genitive	państwa	państw
+dative	państwu	państwom
+accusative	państwo	państwa
+instrumental	państwem	państwami
+locative	państwie	państwach
+vocative	państwo	państwa
+
+53	man	chicken
+nominative	kurczak	kurczaki
+genitive	kurczaka	kurczaków
+dative	kurczakowi	kurczakom
+accusative	kurczaka	kurczaki
+instrumental	kurczakiem	kurczakami
+locative	kurczaku	kurczakach
+vocative	kurczaku	kurczaki
+
+54	minan	rain, shower
+nominative	deszcz	deszcze
+genitive	deszczu	deszczy
+dative	deszczowi	deszczom
+accusative	deszcz	deszcze
+instrumental	deszczem	deszczami
+locative	deszczu	deszczach
+vocative	deszczu	deszcze
+
+55	f	road, path
+nominative	droga	drogi
+genitive	drogi	dróg
+dative	drodze	drogom
+accusative	drogę	drogi
+instrumental	drogą	drogami
+locative	drodze	drogach
+vocative	drogo	drogi
+
+56	n	crossroads, fork in the road (a place where a road diverges)
+nominative	rozdroże	rozdroża
+genitive	rozdroża	rozdroży
+dative	rozdrożu	rozdrożom
+accusative	rozdroże	rozdroża
+instrumental	rozdrożem	rozdrożami
+locative	rozdrożu	rozdrożach
+vocative	rozdroże	rozdroża
+
+57	f	journey, travel, trip
+nominative	podróż	podróże
+genitive	podróży	podróży
+dative	podróży	podróżom
+accusative	podróż	podróże
+instrumental	podróżą	podróżami
+locative	podróży	podróżach
+vocative	podróży	podróże
+
+58	minan	break (device), inhibition
+nominative	hamulec	hamulce
+genitive	hamulca	hamulców
+dative	hamulcowi	hamulcom
+accusative	hamulec	hamulce
+instrumental	hamulcem	hamulcami
+locative	hamulcu	hamulcach
+vocative	hamulcu	hamulce
+
+59	mpers	musician (masculine)
+nominative	muzyk	muzycy
+genitive	muzyka	muzyków
+dative	muzykowi	muzykom
+accusative	muzyka	muzyków
+instrumental	muzykiem	muzykami
+locative	muzyku	muzykach
+vocative	muzyku	muzycy
+
+60	f	novel (work of prose fiction)
+nominative	powieść	powieści
+genitive	powieści	powieści
+dative	powieści	powieściom
+accusative	powieść	powieści
+instrumental	powieścią	powieściami
+locative	powieści	powieściach
+vocative	powieści	powieści
+
+61	minan	proof, piece of evidence
+nominative	dowód	dowody
+genitive	dowodu	dowodów
+dative	dowodowi	dowodom
+accusative	dowód	dowody
+instrumental	dowodem	dowodami
+locative	dowodzie	dowodach
+vocative	dowodzie	dowody
+
+62	minan	reason, cause
+nominative	powód	powody
+genitive	powodu	powodów
+dative	powodowi	powodom
+accusative	powód	powody
+instrumental	powodem	powodami
+locative	powodzie	powodach
+vocative	powodzie	powody
+
+63	mpers	plaintiff (masculine)
+nominative	powód	powodowie
+genitive	powoda	powodów
+dative	powodowi	powodom
+accusative	powoda	powodów
+instrumental	powodem	powodami
+locative	powodzie	powodach
+vocative	powodzie	powodowie
+
+64	f	plaintiff (feminine)
+nominative	powódka	powódki
+genitive	powódki	powódek
+dative	powódce	powódkom
+accusative	powódkę	powódki
+instrumental	powódką	powódkami
+locative	powódce	powódkach
+vocative	powódko	powódki
+
+65	n	apple
+nominative	jabłko	jabłka
+genitive	jabłka	jabłek
+dative	jabłku	jabłkom
+accusative	jabłko	jabłka
+instrumental	jabłkiem	jabłkami
+locative	jabłku	jabłkach
+vocative	jabłko	jabłka
+
+66	f	orange
+nominative	pomarańcza	pomarańcze
+genitive	pomarańczy	pomarańczy
+dative	pomarańczy	pomarańczom
+accusative	pomarańczę	pomarańcze
+instrumental	pomarańczą	pomarańczami
+locative	pomarańczy	pomarańczach
+vocative	pomarańczo	pomarańcze
+
+67	f	magyar (nő)
+nominative	Węgierka	Węgierki
+genitive	Węgierki	Węgierek
+dative	Węgierce	Węgierkom
+accusative	Węgierkę	Węgierki
+instrumental	Węgierką	Węgierkami
+locative	Węgierce	Węgierkach
+vocative	Węgierko	Węgierki
+
+68	mpers	magyar (férfi)
+nominative	Węgier	Węgrzy
+genitive	Węgra	Węgrów
+dative	Węgrowi	Węgrom
+accusative	Węgra	Węgrów
+instrumental	Węgrem	Węgrami
+locative	Węgrze	Węgrach
+vocative	Węgrze	Węgrzy
+
+69	nvirpl	Hungary	x
+nominative	Węgry
+genitive	Węgier
+dative	Węgrom
+accusative	Węgry
+instrumental	Węgrami
+locative	Węgrzech
+vocative	Węgry
+
+70	f	weapon
+nominative	broń	bronie
+genitive	broni	broni
+dative	broni	broniom
+accusative	broń	bronie
+instrumental	bronią	broniami
+locative	broni	broniach
+vocative	broni	bronie
+
+71	n	name; given name	x
+nominative	imię	imiona
+genitive	imienia	imion
+dative	imieniu	imionom
+accusative	imię	imiona
+instrumental	imieniem	imionami
+locative	imieniu	imionach
+vocative	imię	imiona
+
+72	minan	end, finish
+nominative	koniec	końce
+genitive	końca	końców
+dative	końcowi	końcom
+accusative	koniec	końce
+instrumental	końcem	końcami
+locative	końcu	końcach
+vocative	końcu	końce
+
+73	minan	day, daytime	x
+nominative	dzień	dni
+genitive	dnia	dni
+dative	dniowi	dniom
+accusative	dzień	dni
+instrumental	dniem	dniami
+locative	dniu	dniach
+vocative	dniu	dni
+
+74	n	bottom (the lowest part of a container)
+nominative	dno	dna
+genitive	dna	den
+dative	dnu	dnom
+accusative	dno	dna
+instrumental	dnem	dnami
+locative	dnie	dnach
+vocative	dno	dna
+
+75	nvirpl	door	x
+nominative	drzwi
+genitive	drzwi
+dative	drzwiom
+accusative	drzwi
+instrumental	drzwiami
+locative	drzwiach
+vocative	drzwi
+
+76	minan	shoe
+nominative	but	buty
+genitive	buta	butów
+dative	butowi	butom
+accusative	but	buty
+instrumental	butem	butami
+locative	bucie	butach
+vocative	bucie	buty
+
+77	f	foot
+nominative	stopa	stopy
+genitive	stopy	stóp
+dative	stopie	stopom
+accusative	stopę	stopy
+instrumental	stopą	stopami
+locative	stopie	stopach
+vocative	stopo	stopy
+
+78	f	heel (of foot or shoe or sock)
+nominative	pięta	pięty
+genitive	pięty	pięt
+dative	pięcie	piętom
+accusative	piętę	pięty
+instrumental	piętą	piętami
+locative	pięcie	piętach
+vocative	pięto	pięty
+
+79	f	sole (bottom of a shoe or foot)
+nominative	podeszwa	podeszwy
+genitive	podeszwy	podeszew
+dative	podeszwie	podeszwom
+accusative	podeszwę	podeszwy
+instrumental	podeszwą	podeszwami
+locative	podeszwie	podeszwach
+vocative	podeszwo	podeszwy
+
+80	minan	heel (specifically of shoe)
+nominative	obcas	obcasy
+genitive	obcasu	obcasów
+dative	obcasowi	obcasom
+accusative	obcas	obcasy
+instrumental	obcasem	obcasami
+locative	obcasie	obcasach
+vocative	obcasie	obcasy
+
+81	f	music
+nominative	muzyka
+genitive	muzyki
+dative	muzyce
+accusative	muzykę
+instrumental	muzyką
+locative	muzyce
+vocative	muzyko
+
+82	f	rightness, righteousness, fairness, point
+nominative	racja	racje
+genitive	racji	racji
+dative	racji	racjom
+accusative	rację	racje
+instrumental	racją	racjami
+locative	racji	racjach
+vocative	racjo	racje
+
+83	f	hope
+nominative	nadzieja	nadzieje
+genitive	nadziei	nadziei
+dative	nadziei	nadziejom
+accusative	nadzieję	nadzieje
+instrumental	nadzieją	nadziejami
+locative	nadziei	nadziejach
+vocative	nadziejo	nadzieje
+
+84	mpers	Christian priest	x
+nominative	ksiądz	księża
+genitive	księdza	księży
+dative	księdzu	księżom
+accusative	księdza	księży
+instrumental	księdzem	księżmi
+locative	księdzu	księżach
+vocative	księże	księża
+
+85	minan	moon
+nominative	księżyc	księżyce
+genitive	księżyca	księżyców
+dative	księżycowi	księżycom
+accusative	księżyc	księżyce
+instrumental	księżycem	księżycami
+locative	księżycu	księżycach
+vocative	księżycu	księżyce
+
+86	mpers	prince, duke	x
+nominative	książę	książęta
+genitive	księcia	książąt
+dative	księciu	książętom
+accusative	księcia	książąt
+instrumental	księciem	książętami
+locative	księciu	książętach
+vocative	książę	książęta
+
+87	f	princess, duchess	x
+nominative	księżna	księżne
+genitive	księżnej	księżnych
+dative	księżnej	księżnym
+accusative	księżną	księżne
+instrumental	księżną	księżnymi
+locative	księżnej	księżnych
+vocative	księżno	księżne
+
+88	n	eye	x
+nominative	oko	oczy
+genitive	oka	oczu
+dative	oku	oczom
+accusative	oko	oczy
+instrumental	okiem	oczami
+locative	oku	oczach
+vocative	oko	oczy
+
+89	mpers	father
+nominative	ojciec	ojcowie
+genitive	ojca	ojców
+dative	ojcu	ojcom
+accusative	ojca	ojców
+instrumental	ojcem	ojcami
+locative	ojcu	ojcach
+vocative	ojcze	ojcowie
+
+90	minan	baptism
+nominative	chrzest	chrzty
+genitive	chrztu	chrztów
+dative	chrztowi	chrztom
+accusative	chrzest	chrzty
+instrumental	chrztem	chrztami
+locative	chrzcie	chrztach
+vocative	chrzcie	chrzty
