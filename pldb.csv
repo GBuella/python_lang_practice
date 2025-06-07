@@ -818,3 +818,39 @@ accusative	chrzest	chrzty
 instrumental	chrztem	chrztami
 locative	chrzcie	chrztach
 vocative	chrzcie	chrzty
+
+91	f	bath, bathing
+nominative	kąpiel	kąpiele
+genitive	kąpieli	kąpieli
+dative	kąpieli	kąpielom
+accusative	kąpiel	kąpiele
+instrumental	kąpielą	kąpielami
+locative	kąpieli	kąpielach
+vocative	kąpieli	kąpiele
+
+92	n	recording, felvétel (video, sound)
+nominative	nagranie	nagrania
+genitive	nagrania	nagrań
+dative	nagraniu	nagraniom
+accusative	nagranie	nagrania
+instrumental	nagraniem	nagraniami
+locative	nagraniu	nagraniach
+vocative	nagranie	nagrania
+
+93	minan	intention
+nominative	zamiar	zamiary
+genitive	zamiaru	zamiarów
+dative	zamiarowi	zamiarom
+accusative	zamiar	zamiary
+instrumental	zamiarem	zamiarami
+locative	zamiarze	zamiarach
+vocative	zamiarze	zamiary
+
+94	minan	stockpile, reserve
+nominative	zapas	zapasy
+genitive	zapasu	zapasów
+dative	zapasowi	zapasom
+accusative	zapas	zapasy
+instrumental	zapasem	zapasami
+locative	zapasie	zapasach
+vocative	zapasie	zapasy
