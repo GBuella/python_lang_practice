@@ -854,3 +854,102 @@ accusative	zapas	zapasy
 instrumental	zapasem	zapasami
 locative	zapasie	zapasach
 vocative	zapasie	zapasy
+
+95	mpers	son
+nominative	syn	synowie
+genitive	syna	synów
+dative	synowi	synom
+accusative	syna	synów
+instrumental	synem	synami
+locative	synu	synach
+vocative	synu	synowie
+
+96	n	dream (hope, whish)
+nominative	marzenie	marzenia
+genitive	marzenia	marzeń
+dative	marzeniu	marzeniom
+accusative	marzenie	marzenia
+instrumental	marzeniem	marzeniami
+locative	marzeniu	marzeniach
+vocative	marzenie	marzenia
+
+97	minan	dream (imaginary events seen while sleeping)
+nominative	sen	sny
+genitive	snu	snów
+dative	snowi	snom
+accusative	sen	sny
+instrumental	snem	snami
+locative	śnie	snach
+vocative	śnie	sny
+
+98	n	achievement, elérés, odanyúlás
+nominative	osiągnięcie	osiągnięcia
+genitive	osiągnięcia	osiągnięć
+dative	osiągnięciu	osiągnięciom
+accusative	osiągnięcie	osiągnięcia
+instrumental	osiągnięciem	osiągnięciami
+locative	osiągnięciu	osiągnięciach
+vocative	osiągnięcie	osiągnięcia
+
+99	n	accomplishment, végrehajtás
+nominative	dokonanie	dokonania
+genitive	dokonania	dokonań
+dative	dokonaniu	dokonaniom
+accusative	dokonanie	dokonania
+instrumental	dokonaniem	dokonaniami
+locative	dokonaniu	dokonaniach
+vocative	dokonanie	dokonania
+
+100	n	nyúlás
+nominative	sięganie
+genitive	sięgania
+dative	sięganiu
+accusative	sięganie
+instrumental	sięganiem
+locative	sięganiu
+vocative	sięganie
+
+101	n	assembly (congregation of people in one place for a purpose)
+nominative	zgromadzenie	zgromadzenia
+genitive	zgromadzenia	zgromadzeń
+dative	zgromadzeniu	zgromadzeniom
+accusative	zgromadzenie	zgromadzenia
+instrumental	zgromadzeniem	zgromadzeniami
+locative	zgromadzeniu	zgromadzeniach
+vocative	zgromadzenie	zgromadzenia
+
+102	minan	fear
+nominative	strach	strachy
+genitive	strachu	strachów
+dative	strachowi	strachom
+accusative	strach	strachy
+instrumental	strachem	strachami
+locative	strachu	strachach
+vocative	strachu	strachy
+
+103	f	excuse, pretext
+nominative	wymówka	wymówki
+genitive	wymówki	wymówek
+dative	wymówce	wymówkom
+accusative	wymówkę	wymówki
+instrumental	wymówką	wymówkami
+locative	wymówce	wymówkach
+vocative	wymówko	wymówki
+
+104	f	loss
+nominative	utrata	utraty
+genitive	utraty	utrat
+dative	utracie	utratom
+accusative	utratę	utraty
+instrumental	utratą	utratami
+locative	utracie	utratach
+vocative	utrato	utraty
+
+105	f	shelf, polc
+nominative	półka	półki
+genitive	półki	półek
+dative	półce	półkom
+accusative	półkę	półki
+instrumental	półką	półkami
+locative	półce	półkach
+vocative	półko	półki
