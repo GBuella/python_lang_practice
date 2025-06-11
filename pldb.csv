@@ -953,3 +953,48 @@ accusative	półkę	półki
 instrumental	półką	półkami
 locative	półce	półkach
 vocative	półko	półki
+
+106	n	reception, félfogadás
+nominative	przyjęcie	przyjęcia
+genitive	przyjęcia	przyjęć
+dative	przyjęciu	przyjęciom
+accusative	przyjęcie	przyjęcia
+instrumental	przyjęciem	przyjęciami
+locative	przyjęciu	przyjęciach
+vocative	przyjęcie	przyjęcia
+
+107	minan	aroma, smell, odour
+nominative	zapach	zapachy
+genitive	zapachu	zapachów
+dative	zapachowi	zapachom
+accusative	zapach	zapachy
+instrumental	zapachem	zapachami
+locative	zapachu	zapachach
+vocative	zapachu	zapachy
+
+108	n	shoulder, upper arm	x
+nominative	ramię	ramiona
+genitive	ramienia	ramion
+dative	ramieniu	ramionom
+accusative	ramię	ramiona
+instrumental	ramieniem	ramionami
+locative	ramieniu	ramionach
+vocative	ramię	ramiona
+
+109	f	hand, upper limb	x
+nominative	ręka	ręce
+genitive	ręki	rąk
+dative	ręce	rękom
+accusative	rękę	ręce
+instrumental	ręką	rękami
+locative	ręce	rękach
+vocative	ręko	ręce
+
+110	minan	sleeve
+nominative	rękaw	rękawy
+genitive	rękawa	rękawów
+dative	rękawowi	rękawom
+accusative	rękaw	rękawy
+instrumental	rękawem	rękawami
+locative	rękawie	rękawach
+vocative	rękawie	rękawy
