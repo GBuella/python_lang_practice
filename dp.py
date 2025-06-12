@@ -108,8 +108,10 @@ with open(args.path, newline='') as csvfile:
 
 random.shuffle(words)
 
-def ask(form, answer, ns):
+def ask(form, answer, ns, prev):
 	resp = input(form + ': ')
+	if resp == 'x':
+		resp = prev
 	c = 0
 	while (resp != answer):
 		if resp == '':
@@ -127,16 +129,17 @@ for picked in words:
 		continue
 	if (args.number == 'plural' and len(picked['decl'][0]) < 3):
 		continue
-	print('')
-	print(picked['def'])
-	assert picked['decl'][0][0] == 'nominative'
-	ns = picked['decl'][0][1]
 	if (args.gender == 'masculine'
 		and not picked['gender'].startswith('masculine')):
 		continue
 	elif (args.gender != 'all'
-		and not picked['gender'] != args.gender):
+		and picked['gender'] != args.gender):
 		continue
+	print('')
+	print(picked['def'])
+	assert picked['decl'][0][0] == 'nominative'
+	ns = picked['decl'][0][1]
+	prev = ''
 	for d in picked['decl']:
 		if args.case == 'all' and ((not args.full7) and d[0] == 'vocative'):
 			continue;
@@ -145,7 +148,8 @@ for picked in words:
 		if (args.number != 'plural'
 			and picked['gender'] != 'viril_plural'
 			and picked['gender'] != 'nonviril_plural'):
-			ask(d[0] + ' singular', d[1], ns)
+			ask(d[0] + ' singular', d[1], ns, prev)
+			prev = d[1]
 		if (args.number != 'singular'
 			and (args.full6 or args.full7 or picked['irregular'] or
 				d[0] == 'nominative' or d[0] == 'genitive' or
@@ -157,4 +161,5 @@ for picked in words:
 				if (len(d) == 2):
 					continue
 				answer = d[2]
-			ask(d[0] + ' plural', answer, ns)
+			ask(d[0] + ' plural', answer, ns, prev)
+			prev = answer
