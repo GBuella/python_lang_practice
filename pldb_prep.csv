@@ -1,0 +1,59 @@
+# vim: set tabstop=18:
+#
+# surface
+na	accusative		-ra
+na	locative		-on
+z	genitive		-ról
+#
+# 3D
+pod	accusative		alá
+pod	instrumental		alatt
+spod	genitive		alól
+nad	accusative		fölé
+nad	instrumental		fölött
+sponad	genitive		fölül
+# but znad is a synonym...
+w	locative		belül
+z	genitive		-ból
+wewnątrz	genitive		belsejében
+między	accusative		közé	plural
+między	instrumental		között	plural
+spomiędzy	genitive		közül	plural
+za	accusative		mögé
+za	instrumental		mögött
+zza	genitive		mögül
+przed	accusative		elé
+przed	instrumental		előtt
+sprzed	genitive		elől, előtti
+przez	accusative	through
+#
+# other meanings
+na bazie	genitive	based on
+w formie	genitive	in the form of
+w ciągu	genitive	in the space of, during
+wśród	genitive	among		plural
+spośród	genitive	from among		plural
+poza	accusative		kívülre
+poza	instrumental		kívül, túl
+spoza	genitive		kívülről
+bez	genitive	without
+dzięki	dative	thanks to
+przeciwko	dative	against
+naprzeciw	genitive	facing opposite
+# o	accusative	to about ?
+o	locative	about
+po	accusative		-ért, -ig
+po	locative	after
+za	genitive		idejében	singular
+od	genitive		-től
+do	genitive		-höz
+dla	genitive	for
+wbrew	dative	against request, against advice
+wzdłuż	genitive	along
+mimo	accusative	despite, even though
+oprócz	genitive	except
+#
+#
+# with adjectives only, using archaic -sku
+# po	dative		-ként, -ul
+#
