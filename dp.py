@@ -50,9 +50,9 @@ parser.add_argument('-s', help='start id', default=0, type=int,
 		dest='startid')
 parser.add_argument('-e', help='end id', default=0, type=int,
 		dest='endid')
-parser.add_argument('-f', help='end id', action='store_true',
+parser.add_argument('-f', help='all 6 cases, 2 numbers', action='store_true',
 		dest='full6')
-parser.add_argument('-F', help='end id', action='store_true',
+parser.add_argument('-F', help='all 7 cases, 2 numbers', action='store_true',
 		dest='full7')
 parser.add_argument('-C', help='ask compounds', action='store_true',
 		dest='preps')
@@ -121,8 +121,10 @@ with open(args.path, newline='') as csvfile:
 				word['gender'] = 'masculine_personal'
 			elif row[1] == 'nvirpl':
 				word['gender'] = 'viril_plural'
+				word['irregular'] = True
 			elif row[1] == 'virpl':
 				word['gender'] = 'nonviril_plural'
+				word['irregular'] = True
 			else:
 				print(row[1])
 				assert False, 'unknown gender'

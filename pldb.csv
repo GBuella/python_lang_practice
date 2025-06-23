@@ -998,3 +998,228 @@ accusative	rękaw	rękawy
 instrumental	rękawem	rękawami
 locative	rękawie	rękawach
 vocative	rękawie	rękawy
+
+111	minan	money
+nominative	pieniądz	pieniądze
+genitive	pieniądza	pieniędzy
+dative	pieniądzowi	pieniądzom
+accusative	pieniądz	pieniądze
+instrumental	pieniądzem	pieniędzmi
+locative	pieniądzu	pieniądzach
+vocative	pieniądzu	pieniądze
+
+112	f	night
+nominative	noc	noce
+genitive	nocy	nocy
+dative	nocy	nocom
+accusative	noc	noce
+instrumental	nocą	nocami
+locative	nocy	nocach
+vocative	nocy	noce
+
+113	f	help
+nominative	pomoc	pomoce
+genitive	pomocy	pomocy
+dative	pomocy	pomocom
+accusative	pomoc	pomoce
+instrumental	pomocą	pomocami
+locative	pomocy	pomocach
+vocative	pomocy	pomoce
+
+114	minan	idea
+nominative	pomysł	pomysły
+genitive	pomysłu	pomysłów
+dative	pomysłowi	pomysłom
+accusative	pomysł	pomysły
+instrumental	pomysłem	pomysłami
+locative	pomyśle	pomysłach
+vocative	pomyśle	pomysły
+
+115	minan	inscription
+nominative	napis	napisy
+genitive	napisu	napisów
+dative	napisowi	napisom
+accusative	napis	napisy
+instrumental	napisem	napisami
+locative	napisie	napisach
+vocative	napisie	napisy
+
+116	minan	world
+nominative	świat	światy
+genitive	świata	światów
+dative	światu	światom
+accusative	świat	światy
+instrumental	światem	światami
+locative	świecie	światach
+vocative	świecie	światy
+
+117	f	death
+nominative	śmierć	śmierci
+genitive	śmierci	śmierci
+dative	śmierci	śmierciom
+accusative	śmierć	śmierci
+instrumental	śmiercią	śmierciami
+locative	śmierci	śmierciach
+vocative	śmierci	śmierci
+
+118	n	law, right
+nominative	prawo	prawa
+genitive	prawa	praw
+dative	prawu	prawom
+accusative	prawo	prawa
+instrumental	prawem	prawami
+locative	prawie	prawach
+vocative	prawo	prawa
+
+119	f	wife
+nominative	żona	żony
+genitive	żony	żon
+dative	żonie	żonom
+accusative	żonę	żony
+instrumental	żoną	żonami
+locative	żonie	żonach
+vocative	żono	żony
+
+120	f	guilt, fault
+nominative	wina	winy
+genitive	winy	win
+dative	winie	winom
+accusative	winę	winy
+instrumental	winą	winami
+locative	winie	winach
+vocative	wino	winy
+
+121	f	ground, earth
+nominative	ziemia	ziemie
+genitive	ziemi	ziem
+dative	ziemi	ziemiom
+accusative	ziemię	ziemie
+instrumental	ziemią	ziemiami
+locative	ziemi	ziemiach
+vocative	ziemio	ziemie
+
+122	n	happiness, luck
+nominative	szczęście
+genitive	szczęścia
+dative	szczęściu
+accusative	szczęście
+instrumental	szczęściem
+locative	szczęściu
+vocative	szczęście
+
+123	minan	return
+nominative	powrót	powroty
+genitive	powrotu	powrotów
+dative	powrotowi	powrotom
+accusative	powrót	powroty
+instrumental	powrotem	powrotami
+locative	powrocie	powrotach
+vocative	powrocie	powroty
+
+124	minan	entirety
+nominative	ogół
+genitive	ogółu
+dative	ogółowi
+accusative	ogół
+instrumental	ogółem
+locative	ogóle
+vocative	ogóle
+
+125	minan	treasure
+nominative	skarb	skarby
+genitive	skarbu	skarbów
+dative	skarbowi	skarbom
+accusative	skarb	skarby
+instrumental	skarbem	skarbami
+locative	skarbie	skarbach
+vocative	skarbie	skarby
+
+126	mpers	husband
+nominative	mąż	mężowie
+genitive	męża	mężów
+dative	mężowi	mężom
+accusative	męża	mężów
+instrumental	mężem	mężami
+locative	mężu	mężach
+vocative	mężu	mężowie
+
+127	n	body
+nominative	ciało	ciała
+genitive	ciała	ciał
+dative	ciału	ciałom
+accusative	ciało	ciała
+instrumental	ciałem	ciałami
+locative	ciele	ciałach
+vocative	ciało	ciała
+
+128	mpers	brother	x
+nominative	brat	bracia
+genitive	brata	braci
+dative	bratu	braciom
+accusative	brata	braci
+instrumental	bratem	braćmi
+locative	bracie	braciach
+vocative	bracie	bracia
+
+129	f	face
+nominative	twarz	twarze
+genitive	twarzy	twarzy
+dative	twarzy	twarzom
+accusative	twarz	twarze
+instrumental	twarzą	twarzami
+locative	twarzy	twarzach
+vocative	twarzy	twarze
+
+130	minan	stick
+nominative	kij	kije
+genitive	kija	kijów
+dative	kijowi	kijom
+accusative	kij	kije
+instrumental	kijem	kijami
+locative	kiju	kijach
+vocative	kiju	kije
+
+131	minan	expression, repayment
+nominative	zwrot	zwroty
+genitive	zwrotu	zwrotów
+dative	zwrotowi	zwrotom
+accusative	zwrot	zwroty
+instrumental	zwrotem	zwrotami
+locative	zwrocie	zwrotach
+vocative	zwrocie	zwroty
+
+132	minan	deck, board
+nominative	pokład	pokłady
+genitive	pokładu	pokładów
+dative	pokładowi	pokładom
+accusative	pokład	pokłady
+instrumental	pokładem	pokładami
+locative	pokładzie	pokładach
+vocative	pokładzie	pokłady
+
+133	f	pocket, pouch
+nominative	kieszeń	kieszenie
+genitive	kieszeni	kieszeni
+dative	kieszeni	kieszeniom
+accusative	kieszeń	kieszenie
+instrumental	kieszenią	kieszeniami
+locative	kieszeni	kieszeniach
+vocative	kieszeni	kieszenie
+
+134	n	animal	x
+nominative	zwierzę	zwierzęta
+genitive	zwierzęcia	zwierząt
+dative	zwierzęciu	zwierzętom
+accusative	zwierzę	zwierzęta
+instrumental	zwierzęciem	zwierzętami
+locative	zwierzęciu	zwierzętach
+vocative	zwierzę	zwierzęta
+
+135	nvirpl	mouth
+nominative	usta
+genitive	ust
+dative	ustom
+accusative	usta
+instrumental	ustami
+locative	ustach
+vocative	usta
