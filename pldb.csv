@@ -1223,3 +1223,37 @@ accusative	usta
 instrumental	ustami
 locative	ustach
 vocative	usta
+
+136	nps	I	x
+nominative	ja
+genitive	mnie
+dative	mnie
+accusative	mnie
+instrumental	mną
+locative	mnie
+
+137	npp	we	x
+nominative	my
+genitive	nas
+dative	nam
+accusative	nas
+instrumental	nami
+locative	nas
+
+138	nnp	both (collective)	x
+nominative	oboje
+genitive	obojga
+dative	obojgu
+accusative	oboje
+instrumental	obojgiem
+locative	obojgu
+vocative	oboje
+
+139	nnp	four (collective)	x
+nominative	czworo
+genitive	czworga
+dative	czworgu
+accusative	czworo
+instrumental	czworgiem
+locative	czworgu
+vocative	czworo
