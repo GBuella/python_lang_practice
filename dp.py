@@ -113,6 +113,14 @@ with open(args.path, newline='') as csvfile:
 				word['gender'] = 'feminine'
 			elif row[1] == 'n':
 				word['gender'] = 'neuter'
+			elif row[1] == 'nps':
+				word['gender'] = 'pronoun' # no-gender pronouns, singular
+			elif row[1] == 'npp':
+				word['gender'] = 'pronoun_plural' # no-gender pronouns, plural
+			elif row[1] == 'nns':
+				word['gender'] = 'numeral' # no-gender numerals, singular
+			elif row[1] == 'nnp':
+				word['gender'] = 'numeral_plural' # no-gender numerals, plural
 			elif row[1] == 'minan':
 				word['gender'] = 'masculine_inanimate'
 			elif row[1] == 'man':
@@ -144,11 +152,12 @@ with open(args.path, newline='') as csvfile:
 
 random.shuffle(words)
 
-def ask(case, number, answer, ns, prev):
+def ask(case, number, answer, ns, prev, gender):
 	answer2 = answer
 	prompt = case + '   ' + number
 	answer_prefix = ''
-	if args.preps and (case + '_' + number) in preps:
+	if (args.preps and (case + '_' + number) in preps
+		and gender != 'numeral' and gender != 'numeral_plural'):
 		prep = random.choice(preps[case + '_' + number])
 		if 'question_prep' in prep:
 			prompt = prep['question_prep'] + '   '
@@ -207,20 +216,26 @@ for picked in words:
 		if args.case != 'all' and d[0] != args.case:
 			continue;
 		if (args.number != 'plural'
+			and picked['gender'] != 'pronoun_plural'
+			and picked['gender'] != 'numeral_plural'
 			and picked['gender'] != 'viril_plural'
 			and picked['gender'] != 'nonviril_plural'):
-			ask(d[0], 'singular', d[1], ns, prev)
+			ask(d[0], 'singular', d[1], ns, prev, picked['gender'])
 			prev = d[1]
 		if (args.number != 'singular'
+			and picked['gender'] != 'pronoun'
+			and picked['gender'] != 'numeral'
 			and (args.full6 or args.full7 or picked['irregular'] or
 				d[0] == 'nominative' or d[0] == 'genitive' or
 				d[0] == 'accusative'
 			)):
 			answer = d[1]
 			if (picked['gender'] != 'viril_plural'
+				and picked['gender'] != 'pronoun_plural'
+				and picked['gender'] != 'numeral_plural'
 				and picked['gender'] != 'nonviril_plural'):
 				if (len(d) == 2):
 					continue
 				answer = d[2]
-			ask(d[0], 'plural', answer, ns, prev)
+			ask(d[0], 'plural', answer, ns, prev, picked['gender'])
 			prev = answer
