@@ -1,0 +1,89 @@
+# vim: set tabstop=15:
+
+1	all, every
+nominative	wszystek	wszystka	wszystko	wszyscy	wszystkie
+genitive	wszystkiego	wszystkiej	wszystkiego	wszystkich
+dative	wszystkiemu	wszystkiej	wszystkiemu	wszystkim
+accusative	wszystkiego	wszystek	wszystką	wszystko	wszystkich	wszystkie
+instrumental	wszystkim	wszystką	wszystkim	wszystkimi
+locative	wszystkim	wszystkiej	wszystkim	wszystkich
+
+2	good
+nominative	dobry	dobra	dobre	dobrzy	dobre
+genitive	dobrego	dobrej	dobrego	dobrych
+dative	dobremu	dobrej	dobremu	dobrym
+accusative	dobrego	dobry	dobrą	dobre	dobrych	dobre
+instrumental	dobrym	dobrą	dobrym	dobrymi
+locative	dobrym	dobrej	dobrym	dobrych
+
+3	black
+nominative	czarny	czarna	czarne	czarni	czarne
+genitive	czarnego	czarnej	czarnego	czarnych
+dative	czarnemu	czarnej	czarnemu	czarnym
+accusative	czarnego	czarny	czarną	czarne	czarnych	czarne
+instrumental	czarnym	czarną	czarnym	czarnymi
+locative	czarnym	czarnej	czarnym	czarnych
+
+4	tight
+nominative	ciasny	ciasna	ciasne	ciaśni	ciasne
+genitive	ciasnego	ciasnej	ciasnego	ciasnych
+dative	ciasnemu	ciasnej	ciasnemu	ciasnym
+accusative	ciasnego	ciasny	ciasną	ciasne	ciasnych	ciasne
+instrumental	ciasnym	ciasną	ciasnym	ciasnymi
+locative	ciasnym	ciasnej	ciasnym	ciasnych
+
+5	blue
+nominative	niebieski	niebieska	niebieskie	niebiescy	niebieskie
+genitive	niebieskiego	niebieskiej	niebieskiego	niebieskich
+dative	niebieskiemu	niebieskiej	niebieskiemu	niebieskim
+accusative	niebieskiego	niebieski	niebieską	niebieskie	niebieskich	niebieskie
+instrumental	niebieskim	niebieską	niebieskim	niebieskimi
+locative	niebieskim	niebieskiej	niebieskim	niebieskich
+
+6	dumb
+nominative	głupi	głupia	głupie	głupi	głupie
+genitive	głupiego	głupiej	głupiego	głupich
+dative	głupiemu	głupiej	głupiemu	głupim
+accusative	głupiego	głupi	głupią	głupie	głupich	głupie
+instrumental	głupim	głupią	głupim	głupimi
+locative	głupim	głupiej	głupim	głupich
+
+7	final
+nominative	ostatni	ostatnia	ostatnie	ostatni	ostatnie
+genitive	ostatniego	ostatniej	ostatniego	ostatnich
+dative	ostatniemu	ostatniej	ostatniemu	ostatnim
+accusative	ostatniego	ostatni	ostatnią	ostatnie	ostatnich	ostatnie
+instrumental	ostatnim	ostatnią	ostatnim	ostatnimi
+locative	ostatnim	ostatniej	ostatnim	ostatnich
+
+8	third
+nominative	trzeci	trzecia	trzecie	trzeci	trzecie
+genitive	trzeciego	trzeciej	trzeciego	trzecich
+dative	trzeciemu	trzeciej	trzeciemu	trzecim
+accusative	trzeciego	trzeci	trzecią	trzecie	trzecich	trzecie
+instrumental	trzecim	trzecią	trzecim	trzecimi
+locative	trzecim	trzeciej	trzecim	trzecich
+
+9	this
+nominative	ten	ta	to	ci	te	
+genitive	tego	tej	tego	tych
+dative	temu	tej	temu	tym
+accusative	tego	ten	tę	to	tych	te
+instrumental	tym	tą	tym	tymi
+locative	tym	tej	tym	tych
+
+10	cheap
+nominative	tani	tania	tanie	tani	tanie
+genitive	taniego	taniej	taniego	tanich
+dative	taniemu	taniej	taniemu	tanim
+accusative	taniego	tani	tanią	tanie	tanich	tanie
+instrumental	tanim	tanią	tanim	tanimi
+locative	tanim	taniej	tanim	tanich
+
+11	none of
+nominative	żaden	żadna	żadne	żadni	żadne
+genitive	żadnego	żadnej	żadnego	żadnych
+dative	żadnemu	żadnej	żadnemu	żadnym
+accusative	żadnego	żaden	żadną	żadne	żadnych	żadne
+instrumental	żadnym	żadną	żadnym	żadnymi
+locative	żadnym	żadnej	żadnym	żadnych

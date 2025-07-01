@@ -36,10 +36,12 @@ startid = 0
 endid = 0
 
 parser = argparse.ArgumentParser(description='Noun declensions.')
-parser.add_argument('-p', help='CSV file - nouns', default='pldb.csv',
+parser.add_argument('-p', help='CSV file path - nouns', default='pldb.csv',
 		dest='path')
-parser.add_argument('-P', help='CSV file - prepositions', default='pldb_prep.csv',
+parser.add_argument('-Q', help='CSV file path - prepositions', default='pldb_prep.csv',
 		dest='prepdb_path')
+parser.add_argument('-W', help='CSV file path - adjectives', default='pldb_adj.csv',
+		dest='adjdb_path')
 parser.add_argument('-g', help='gender filter', default='all',
 		dest='gender')
 parser.add_argument('-c', help='case filter', default='all',
@@ -54,8 +56,10 @@ parser.add_argument('-f', help='all 6 cases, 2 numbers', action='store_true',
 		dest='full6')
 parser.add_argument('-F', help='all 7 cases, 2 numbers', action='store_true',
 		dest='full7')
-parser.add_argument('-C', help='ask compounds', action='store_true',
+parser.add_argument('-q', help='ask prepositions', action='store_true',
 		dest='preps')
+parser.add_argument('-w', help='ask adjectives', action='store_true',
+		dest='adjs')
 parser.add_argument('-r', help='randomize case order', action='store_true',
 		dest='rcases')
 
@@ -63,12 +67,64 @@ args = parser.parse_args()
 
 words = []
 preps = {}
+adjs = []
+
+if args.adjs:
+	with open(args.adjdb_path, newline='') as csvfile:
+		datareader = csv.reader(csvfile, delimiter='\t', quotechar='|')
+		hasword = False
+		adj = {}
+		for row in datareader:
+			if len(row) == 0:
+				if hasword:
+					adjs.append(adj)
+				hasword = False
+				adj = {}
+			elif not hasword:
+				if row[0].startswith('#'):
+					continue
+				adj['id'] = int(row[0])
+				assert len(row) == 2 or len(row) == 3
+				adj['def'] = row[1]
+				adj['decl'] = {
+					'viril_plural': {},
+					'nonviril_plural': {},
+					'masculine_animate': {},
+					'masculine_inanimate': {},
+					'feminine': {},
+					'neuter': {}}
+				hasword = True
+			else:
+				if row[0].startswith('#'):
+					continue
+				assert len(row) >= 5 and len(row) <= 7
+				case = row[0]
+				if case == 'vocative':
+					continue
+				adj['decl']['masculine_animate'][case] = row[1]
+				i = 2
+				if case == 'accusative':
+					adj['decl']['masculine_inanimate'][case] = row[2]
+					i = 3
+				else:
+					adj['decl']['masculine_inanimate'][case] = row[1]
+				adj['decl']['feminine'][case] = row[i]
+				i = i + 1
+				adj['decl']['neuter'][case] = row[i]
+				i = i + 1
+				adj['decl']['viril_plural'][case] = row[i]
+				if (case == 'accusative' or case == 'nominative'):
+					adj['decl']['nonviril_plural'][case] = row[i+1]
+				else:
+					adj['decl']['nonviril_plural'][case] = row[i]
+		if hasword:
+			adjs.append(adj)
 
 if args.preps:
 	with open(args.prepdb_path, newline='') as csvfile:
 		datareader = csv.reader(csvfile, delimiter='\t', quotechar='|')
 		for row in datareader:
-			if row[0].startswith('#'):
+			if (len(row) == 0 or row[0].startswith('#')):
 				continue
 			item = {}
 			item['preposition'] = row[0]
@@ -140,6 +196,8 @@ with open(args.path, newline='') as csvfile:
 			word['decl'] = []
 			hasword = True
 		else:
+			if row[0].startswith('#'):
+				continue
 			if (word['gender'] == 'viril_plural'
 				or word['gender'] == 'nonviril_plural'):
 				assert len(row) == 2
@@ -153,29 +211,40 @@ with open(args.path, newline='') as csvfile:
 random.shuffle(words)
 
 def ask(case, number, answer, ns, prev, gender):
-	answer2 = answer
-	prompt = case + '   ' + number
-	answer_prefix = ''
+	prompt_adj = ''
+	prompt_prep = ''
+	prompt_postp = ''
+	prompt_case = ' ' + case
+	if (args.adjs and case != 'vocative' and gender != 'pronoun_plural'
+		and gender != 'pronoun' and gender != 'numeral'
+		and gender != 'numeral_plural'):
+		adj = random.choice(adjs)
+		adjg = gender
+		if ((gender == 'masculine_personal' or gender == 'masculine_animal')
+			and number == 'singular'):
+			adjg = 'masculine_animate'
+		if gender == 'masculine_personal' and number == 'plural':
+			adjg = 'viril_plural'
+		if ((gender == 'masculine_animal' or gender == 'masculine_inanimate'
+			or gender == 'feminine' or gender == 'neuter')
+			and number == 'plural'):
+			adjg = 'nonviril_plural'
+		answer = adj['decl'][adjg][case] + ' ' + answer
+		prompt_adj = ' ' + adj['def']
+		
 	if (args.preps and (case + '_' + number) in preps
 		and gender != 'numeral' and gender != 'numeral_plural'):
+		prompt_case = ''
 		prep = random.choice(preps[case + '_' + number])
 		if 'question_prep' in prep:
-			prompt = prep['question_prep'] + '   '
-		else:
-			prompt = ''
-		prompt = prompt + number
+			prompt_prep = ' ' + prep['question_prep']
 		if 'question_postp' in prep:
-			prompt = prompt + '   ' + prep['question_postp']
+			prompt_postp = '   ' + prep['question_postp']
 		answer = prep['preposition'] + ' ' + answer
-		# TODO explicit rules for ze, we, pode...
-		if (prep['preposition'].endswith('z')
-			or prep['preposition'].endswith('d')
-			or prep['preposition'].endswith('w')):
-			answer2 = prep['preposition'] + 'e ' + answer
-		else:
-			answer2 = answer
-	prompt = prompt + ':  '
-	prompt = prompt.rjust(50)
+		# TODO: allow ze, we, pode...
+	prompt = prompt_prep + prompt_adj + prompt_case + ' ' + number + prompt_postp + ' :'
+
+	prompt = prompt.strip().rjust(50) + ' '
 
 	resp = ' '.join(input(prompt).split()).strip()
 	if resp == 'x':
