@@ -1257,3 +1257,30 @@ accusative	czworo
 instrumental	czworgiem
 locative	czworgu
 vocative	czworo
+
+140	minan	front
+nominative	przód	przody
+genitive	przodu	przodów
+dative	przodowi	przodom
+accusative	przód	przody
+instrumental	przodem	przodami
+locative	przodzie	przodach
+vocative	przodzie	przody
+
+141	minan	corner
+nominative	róg	rogi
+genitive	rogu	rogów
+dative	rogowi	rogom
+accusative	róg	rogi
+instrumental	rogiem	rogami
+locative	rogu	rogach
+vocative	rogu	rogi
+
+141	nvirpl	data
+nominative	dane
+genitive	danych
+dative	danym
+accusative	dane
+instrumental	danymi
+locative	danych
+vocative	dane
