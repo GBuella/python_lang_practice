@@ -1,12 +1,12 @@
 # vim: set tabstop=15:
 
-1	all, every
-nominative	wszystek	wszystka	wszystko	wszyscy	wszystkie
-genitive	wszystkiego	wszystkiej	wszystkiego	wszystkich
-dative	wszystkiemu	wszystkiej	wszystkiemu	wszystkim
-accusative	wszystkiego	wszystek	wszystką	wszystko	wszystkich	wszystkie
-instrumental	wszystkim	wszystką	wszystkim	wszystkimi
-locative	wszystkim	wszystkiej	wszystkim	wszystkich
+1	bad
+nominative	zły	zła	złe	źli	złe
+genitive	złego	złej	złego	złych
+dative	złemu	złej	złemu	złym
+accusative	złego	zły	złą	złe	złych	złe
+instrumental	złym	złą	złym	złymi
+locative	złym	złej	złym	złych
 
 2	good
 nominative	dobry	dobra	dobre	dobrzy	dobre

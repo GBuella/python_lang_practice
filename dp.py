@@ -184,10 +184,10 @@ with open(args.path, newline='') as csvfile:
 			elif row[1] == 'mpers':
 				word['gender'] = 'masculine_personal'
 			elif row[1] == 'nvirpl':
-				word['gender'] = 'viril_plural'
+				word['gender'] = 'nonviril_plural'
 				word['irregular'] = True
 			elif row[1] == 'virpl':
-				word['gender'] = 'nonviril_plural'
+				word['gender'] = 'viril_plural'
 				word['irregular'] = True
 			else:
 				print(row[1])
