@@ -29,12 +29,6 @@ import argparse
 import csv
 import random
 
-genderfilter = 'all'
-casefilter = 'all'
-numberfilter = 'all'
-startid = 0
-endid = 0
-
 parser = argparse.ArgumentParser(description='Noun declensions.')
 parser.add_argument('-p', help='CSV file path - nouns', default='pldb.csv',
 		dest='path')
@@ -164,7 +158,16 @@ with open(args.path, newline='') as csvfile:
 			if args.endid != 0 and word['id'] >= args.endid:
 				break
 			assert len(row) == 3 or len(row) == 4
-			word['irregular'] = (len(row) == 4)
+			word['irregular'] = False
+			word['no_prep'] = False
+			word['only_prep'] = False
+			if len(row) == 4:
+				if "irr" in row[3]:
+					word['irregular'] = True
+				if "no_prep" in row[3]:
+					word['no_prep'] = True
+				if "only_prep" in row[3]:
+					word['only_prep'] = True
 			if row[1] == 'f':
 				word['gender'] = 'feminine'
 			elif row[1] == 'n':
@@ -210,13 +213,14 @@ with open(args.path, newline='') as csvfile:
 
 random.shuffle(words)
 
-def ask(case, number, answer, ns, prev, gender):
+def ask(case, number, answer, ns, prev, gender, no_prep, no_adj):
 	prompt_adj = ''
 	prompt_prep = ''
 	prompt_postp = ''
 	prompt_case = ' ' + case
 	if (args.adjs and case != 'vocative' and gender != 'pronoun_plural'
 		and gender != 'pronoun' and gender != 'numeral'
+		and not no_adj
 		and gender != 'numeral_plural'):
 		adj = random.choice(adjs)
 		adjg = gender
@@ -233,6 +237,7 @@ def ask(case, number, answer, ns, prev, gender):
 		prompt_adj = ' ' + adj['def']
 		
 	if (args.preps and (case + '_' + number) in preps
+		and not no_prep
 		and gender != 'numeral' and gender != 'numeral_plural'):
 		prompt_case = ''
 		prep = random.choice(preps[case + '_' + number])
@@ -272,6 +277,8 @@ for picked in words:
 	elif (args.gender != 'all'
 		and picked['gender'] != args.gender):
 		continue
+	elif picked['only_prep'] and not args.preps:
+		continue
 	print('')
 	print(picked['def'])
 	assert picked['decl'][0][0] == 'nominative'
@@ -289,7 +296,7 @@ for picked in words:
 			and picked['gender'] != 'numeral_plural'
 			and picked['gender'] != 'viril_plural'
 			and picked['gender'] != 'nonviril_plural'):
-			ask(d[0], 'singular', d[1], ns, prev, picked['gender'])
+			ask(d[0], 'singular', d[1], ns, prev, picked['gender'], picked['no_prep'], picked['only_prep'])
 			prev = d[1]
 		if (args.number != 'singular'
 			and picked['gender'] != 'pronoun'
@@ -306,5 +313,5 @@ for picked in words:
 				if (len(d) == 2):
 					continue
 				answer = d[2]
-			ask(d[0], 'plural', answer, ns, prev, picked['gender'])
+			ask(d[0], 'plural', answer, ns, prev, picked['gender'], picked['no_prep'], picked['only_prep'])
 			prev = answer

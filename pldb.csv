@@ -18,7 +18,7 @@ instrumental	więźniarką	więźniarkami
 locative	więźniarce	więźniarkach
 vocative	więźniarko	więźniarki
 
-2	minan	year	x
+2	minan	year	irr
 nominative	rok	lata
 genitive	roku	lat
 dative	rokowi	latom
@@ -117,7 +117,7 @@ instrumental	pracą	pracami
 locative	pracy	pracach
 vocative	praco	prace
 
-13	mpers	employer	x
+13	mpers	employer	irr
 nominative	pracodawca	pracodawcy
 genitive	pracodawcy	pracodawców
 dative	pracodawcy	pracodawcom
@@ -135,7 +135,7 @@ instrumental	pracownikiem	pracownikami
 locative	pracowniku	pracownikach
 vocative	pracowniku	pracownicy
 
-15	mpers	giver, donor	x
+15	mpers	giver, donor	irr
 nominative	dawca	dawcy
 genitive	dawcy	dawców
 dative	dawcy	dawcom
@@ -180,7 +180,7 @@ instrumental	tematem	tematami
 locative	temacie	tematach
 vocative	temacie	tematy
 
-20	n	child	x
+20	n	child	irr
 nominative	dziecko	dzieci
 genitive	dziecka	dzieci
 dative	dziecku	dzieciom
@@ -369,7 +369,7 @@ instrumental	domownikiem	domownikami
 locative	domowniku	domownikach
 vocative	domowniku	domownicy
 
-41	mpers	homeless (man)	x
+41	mpers	homeless (man)	irr
 nominative	bezdomny	bezdomni
 genitive	bezdomnego	bezdomnych
 dative	bezdomnemu	bezdomnym
@@ -450,7 +450,7 @@ instrumental	męskością	męskościami
 locative	męskości	męskościach
 vocative	męskości	męskości
 
-50	mpers	recipient, taker (masculine)	x
+50	mpers	recipient, taker (masculine)	irr
 nominative	biorca	biorcy
 genitive	biorcy	biorców
 dative	biorcy	biorcom
@@ -621,7 +621,7 @@ instrumental	Węgrem	Węgrami
 locative	Węgrze	Węgrach
 vocative	Węgrze	Węgrzy
 
-69	nvirpl	Hungary	x
+69	nvirpl	Hungary	irr
 nominative	Węgry
 genitive	Węgier
 dative	Węgrom
@@ -639,7 +639,7 @@ instrumental	bronią	broniami
 locative	broni	broniach
 vocative	broni	bronie
 
-71	n	name; given name	x
+71	n	name; given name	irr
 nominative	imię	imiona
 genitive	imienia	imion
 dative	imieniu	imionom
@@ -657,7 +657,7 @@ instrumental	końcem	końcami
 locative	końcu	końcach
 vocative	końcu	końce
 
-73	minan	day, daytime	x
+73	minan	day, daytime	irr
 nominative	dzień	dni
 genitive	dnia	dni
 dative	dniowi	dniom
@@ -675,7 +675,7 @@ instrumental	dnem	dnami
 locative	dnie	dnach
 vocative	dno	dna
 
-75	nvirpl	door	x
+75	nvirpl	door	irr
 nominative	drzwi
 genitive	drzwi
 dative	drzwiom
@@ -756,7 +756,7 @@ instrumental	nadzieją	nadziejami
 locative	nadziei	nadziejach
 vocative	nadziejo	nadzieje
 
-84	mpers	Christian priest	x
+84	mpers	Christian priest	irr
 nominative	ksiądz	księża
 genitive	księdza	księży
 dative	księdzu	księżom
@@ -774,7 +774,7 @@ instrumental	księżycem	księżycami
 locative	księżycu	księżycach
 vocative	księżycu	księżyce
 
-86	mpers	prince, duke	x
+86	mpers	prince, duke	irr
 nominative	książę	książęta
 genitive	księcia	książąt
 dative	księciu	książętom
@@ -783,7 +783,7 @@ instrumental	księciem	książętami
 locative	księciu	książętach
 vocative	książę	książęta
 
-87	f	princess, duchess	x
+87	f	princess, duchess	irr
 nominative	księżna	księżne
 genitive	księżnej	księżnych
 dative	księżnej	księżnym
@@ -792,7 +792,7 @@ instrumental	księżną	księżnymi
 locative	księżnej	księżnych
 vocative	księżno	księżne
 
-88	n	eye	x
+88	n	eye	irr
 nominative	oko	oczy
 genitive	oka	oczu
 dative	oku	oczom
@@ -972,7 +972,7 @@ instrumental	zapachem	zapachami
 locative	zapachu	zapachach
 vocative	zapachu	zapachy
 
-108	n	shoulder, upper arm	x
+108	n	shoulder, upper arm	irr
 nominative	ramię	ramiona
 genitive	ramienia	ramion
 dative	ramieniu	ramionom
@@ -981,7 +981,7 @@ instrumental	ramieniem	ramionami
 locative	ramieniu	ramionach
 vocative	ramię	ramiona
 
-109	f	hand, upper limb	x
+109	f	hand, upper limb	irr
 nominative	ręka	ręce
 genitive	ręki	rąk
 dative	ręce	rękom
@@ -1152,7 +1152,7 @@ instrumental	ciałem	ciałami
 locative	ciele	ciałach
 vocative	ciało	ciała
 
-128	mpers	brother	x
+128	mpers	brother	irr
 nominative	brat	bracia
 genitive	brata	braci
 dative	bratu	braciom
@@ -1179,7 +1179,7 @@ instrumental	kijem	kijami
 locative	kiju	kijach
 vocative	kiju	kije
 
-131	minan	expression, repayment
+131	minan	turn, expression, repayment
 nominative	zwrot	zwroty
 genitive	zwrotu	zwrotów
 dative	zwrotowi	zwrotom
@@ -1206,7 +1206,7 @@ instrumental	kieszenią	kieszeniami
 locative	kieszeni	kieszeniach
 vocative	kieszeni	kieszenie
 
-134	n	animal	x
+134	n	animal	irr
 nominative	zwierzę	zwierzęta
 genitive	zwierzęcia	zwierząt
 dative	zwierzęciu	zwierzętom
@@ -1224,7 +1224,7 @@ instrumental	ustami
 locative	ustach
 vocative	usta
 
-136	nps	I	x
+136	nps	I	irr
 nominative	ja
 genitive	mnie
 dative	mnie
@@ -1232,7 +1232,7 @@ accusative	mnie
 instrumental	mną
 locative	mnie
 
-137	npp	we	x
+137	npp	we	irr
 nominative	my
 genitive	nas
 dative	nam
@@ -1240,7 +1240,7 @@ accusative	nas
 instrumental	nami
 locative	nas
 
-138	nnp	both (collective)	x
+138	nnp	both (collective)	irr
 nominative	oboje
 genitive	obojga
 dative	obojgu
@@ -1249,7 +1249,7 @@ instrumental	obojgiem
 locative	obojgu
 vocative	oboje
 
-139	nnp	four (collective)	x
+139	nnp	four (collective)	irr
 nominative	czworo
 genitive	czworga
 dative	czworgu
@@ -1284,3 +1284,65 @@ accusative	dane
 instrumental	danymi
 locative	danych
 vocative	dane
+
+142	mpers	sir
+nominative	pan	panowie
+genitive	pana	panów
+dative	panu	panom
+accusative	pana	panów
+instrumental	panem	panami
+locative	panu	panach
+vocative	panie	panowie
+
+143	f	lady
+nominative	pani	panie
+genitive	pani	pań
+dative	pani	paniom
+accusative	panią	panie
+instrumental	panią	paniami
+locative	pani	paniach
+vocative	pani	panie
+
+144	nps	he	no_prep
+nominative	on
+genitive	jego
+dative	jemu
+accusative	jego
+instrumental	nim
+locative	nim
+
+145	mpers	he	only_prep
+nominative	on
+genitive	niego
+dative	niemu
+accusative	niego
+
+146	nps	she	no_prep
+nominative	ona
+genitive	jej
+dative	jej
+accusative	ją
+instrumental	nią
+locative	niej
+
+147	f	she	only_prep
+nominative	ona
+genitive	niej
+dative	niej
+accusative	nią
+#
+# 148	virpl	viril they
+# nominative	oni
+# genitive	ich
+# dative	im
+# accusative	ich
+# instrumental	nimi
+# locative	nich
+#
+# 149	nvirpl	nonviril they
+# nominative	one
+# genitive	ich
+# dative	im
+# accusative	je
+# instrumental	nimi
+# locative	nich

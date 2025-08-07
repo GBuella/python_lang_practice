@@ -87,3 +87,19 @@ dative	żadnemu	żadnej	żadnemu	żadnym
 accusative	żadnego	żaden	żadną	żadne	żadnych	żadne
 instrumental	żadnym	żadną	żadnym	żadnymi
 locative	żadnym	żadnej	żadnym	żadnych
+
+12	my
+nominative	mój	moja	moje	moi	moje
+genitive	mojego	mojej	mojego	moich
+dative	mojemu	mojej	mojemu	moim
+accusative	mojego	mój	moją	moje	moich	moje
+instrumental	moim	moją	moim	moimi
+locative	moim	mojej	moim	moich
+
+13	your
+nominative	twój	twoja	twoje	twoi	twoje
+genitive	twojego	twojej	twojego	twoich
+dative	twojemu	twojej	twojemu	twoim
+accusative	twojego	twój	twoją	twoje	twoich	twoje
+instrumental	twoim	twoją	twoim	twoimi
+locative	twoim	twojej	twoim	twoich
