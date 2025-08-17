@@ -4,14 +4,14 @@ trzy	3
 cztery	4
 pięć	5
 sześć	6
-siedem	7
+siedem	7	1	739480
 osiem	8
 dziewięć	9
 dziesięć	10
 jedenaście	11
 dwanaście	12
 trzynaście	13
-czternaście	14	1	739480
+czternaście	14	2	739480
 piętnaście	15
 szesnaście	16
 siedemnaście	17
@@ -27,7 +27,7 @@ osiemdziesiąt	80
 dziewięćdziesiąt	90
 sto	100
 dwieście	200
-trzysta	300
+trzysta	300	1	739480
 czterysta	400
 pięćset	500
 sześćset	600
@@ -73,7 +73,7 @@ lepszy	better (adjective)
 lepiej	better (adverb)
 gorszy	worse (adjective)
 droższy	more expensive (adjective)
-drożej	more expensively (adverb)	1	739480
+drożej	more expensively (adverb)	2	739480
 tańszy	cheaper (adjective)
 taniej	cheaper (adverb)
 zieleńszy	greener (adjective)
@@ -100,7 +100,7 @@ powiedzieć	to say (perfective)
 razem	altogether (adverb)
 więc	therefore (conjuction) w:
 żeby	in order to
-prawda	truth
+prawda	truth	1	739480
 chyba	perhaps
 nawet	even (particle)
 właśnie	exactly (interjection)
@@ -108,7 +108,7 @@ zawsze	always
 trochę	a little (adverb)
 wszyscy	everyone
 prosty	simple
-ludzie	people
+ludzie	people	1	739480
 życie	life
 nikt	no one
 oczywiście	of course
@@ -117,7 +117,7 @@ wtedy	then (at that time)
 aby	so that
 pewny	sure
 cóż	whatever (short pronoun)
-potem	then (after)
+potem	then (after)	1	739480
 iść	to go (imperfective)
 wyglądać	to look (intransitive, imperfective)
 skąd	from where
@@ -172,7 +172,7 @@ czerwony	red
 niebieski	blue
 pomarańczowy	orange (color)
 żółty	yellow
-zielony	green	1	739480
+zielony	green	2	739480
 czarny	black
 biały	white
 różowy	pink
@@ -210,7 +210,7 @@ zrozumiały	comprehensible (adjective)
 miejsce	place (noun)
 szybki	quick
 wolny	slow (adjective)
-wolny	free (adjective)	1	739480
+wolny	free (adjective)	2	739480
 wola	will (noun)
 przycisk	button (to be pressed)
 przykro	sorry (short)
@@ -277,7 +277,7 @@ kurtka	jacket
 czapka	cap (hat)
 majtki	underpants
 kochać	to love (imperfective)
-znać	to know (ismerni, imperfective)	1	739480
+znać	to know (ismerni, imperfective)	2	739480
 pisać	to write (imperfective)
 napisać	to write (perfective)
 książka	book (noun)
@@ -288,7 +288,7 @@ usłyszeć	to hear (perfective)
 głos	voice (noun)
 szkoła	school
 potrzebować	to need (imperfective)
-słuchać	to listen (imperfective)	1	739480
+słuchać	to listen (imperfective)	2	739480
 posłuchać	to listen (perfective)
 muzyka	music
 siostra	sister
@@ -303,8 +303,8 @@ mąż	husband
 żona	wife
 rodzina	family
 babcia	grandmother
-dziadek	grandfather
-małżeństwo	marriage	1	739480
+dziadek	grandfather	1	739480
+małżeństwo	marriage	2	739480
 rodzic	parent
 rodzeństwo	siblings
 kolorowy	colourful
@@ -348,7 +348,7 @@ nad	above
 racja	point (opinion which adds to the discussion)
 nadzieja	hope
 przyszły	future (adjective)
-następny	next	1	739480
+następny	next	2	739480
 poprzedni	previous
 koło	wheel
 środek	middle
@@ -399,7 +399,7 @@ ząb	tooth
 zęby	teeth
 oko	eye
 oczy	eyes
-pierś	breast	1	739480
+pierś	breast	2	739480
 plecy	back (anatomy)
 prącie	penis
 serce	heart
@@ -461,7 +461,7 @@ szachownica	chessboard
 powód	cause, reason
 pomysł	idea
 pewien	sure, certain (physically secure and certain, reliable)
-dokąd	where to	1	739480
+dokąd	where to	2	739480
 dotąd	to here
 samochód	car
 świat	world
@@ -478,7 +478,7 @@ pozwalać	to allow, to permit, to consent to (imperfective)
 zawierać	to contain (imperfective)
 zakaz	ban, prohibition
 przychodzić	to arrive, to come (imperfective)
-pociąg	train
+pociąg	train	1	739480
 zegar	clock
 lato	summer
 zima	winter
@@ -497,8 +497,8 @@ natychmiast	immediately
 również	also (r:)
 działać	to work, to function properly
 -kolwiek	-whatever
-zostawić	to leave (transitive, perfective)	1	739480
-bóg	god
+zostawić	to leave (transitive, perfective)	2	739480
+bóg	god	1	739480
 wierzyć	to believe (imperfective)
 ufać	to trust (imperfective)
 prysznic	shower
@@ -540,7 +540,7 @@ zdalny	remote (adjective)
 pobrać	to download (perfective)
 szczęście	happiness, luck
 zgodny	compatible (adjective)
-ruch	movement	1	739480
+ruch	movement	2	739480
 wiadomość	message
 wiadomy	known
 słowo	word
@@ -556,7 +556,7 @@ zmienić	to change (perfective)
 zabrać	to take away (perfective)
 martwić	to burden, to afflict, to worry, to disturb (transitive, imperfective)
 martwić się	to worry (intransitive, imperfective)
-twardy	hard, tough
+twardy	hard, tough	1	739480
 miękki	soft
 mięknąć	to soften (intransitive, imperfective)
 twardnieć	to harden (intransitive, imperfective)
@@ -569,9 +569,9 @@ główny	main
 przepis	recipe
 morda	face (of an animal)
 twarz	face (human)
-przynajmniej	at least
+przynajmniej	at least	1	739480
 ziemia	earth
-długopis	ballpoint pen
+długopis	ballpoint pen	1	739480
 ołówek	pencil
 ołów	lead (pb)
 bogaty	rich
@@ -580,7 +580,7 @@ zmęczony	tired
 biedny	poor
 kościół	church
 towarzyski	sociable
-brudny	dirty	1	739480
+brudny	dirty	2	739480
 ładny	pretty
 brzydki	ugly
 przystojny	handsome
@@ -604,7 +604,7 @@ półtora	1.5
 wyspa	island
 półprzewodnik	semiconductor
 wór	large bag, sack
-pojęcie	concept, idea, notion	1	739480
+pojęcie	concept, idea, notion	2	739480
 skarb	treasure
 wybaczyć	to forgive (perfective)
 cieszyć	to rejoice (imperfective)
@@ -625,7 +625,7 @@ jeździć	to ride (intransitive, indeterminate, imperfective)
 jechać	to ride, to drive (intransitive, determinate, imperfective)
 ogłowie	bridle
 współpraca	cooperation
-śpiewać	to sing (imperfective)	1	739480
+śpiewać	to sing (imperfective)	3	739480
 tłumaczyć	to translate, to interpret (imperfective)
 obchodzić	to celebrate (imperfective)
 lecz	but (l:)
@@ -681,7 +681,7 @@ miara	measure
 płacić	to pay (imperfective)
 dostanę	I get (imperfective)
 czuję	I feel (imperfective)
-chcę	I want (imperfective)	1	739480
+chcę	I want (imperfective)	2	739480
 chciałabyś	you would want (feminine, imperfective)
 chciałbym	I would want (masculine, imperfective)
 wstępny	preliminary
@@ -701,14 +701,14 @@ próbuj	try (imperative, second person singular)
 zwykle	usually (:w:)
 bać	to fear (imperfective)
 boję się	I'm afraid of
-bałem się	I was afraid of
+bałem się	I was afraid of	1	739480
 powiem ci	I tell you
 kawaler	bachelor
 zamiast	instead
 uczyłem się	I did study (imperfective)
 używać	to use (imperfective)
 męczyć	to tire (imperfective)
-używam	I use (imperfective)
+używam	I use (imperfective)	1	739480
 sprzyjać	to favour (imperfective)
 przyjaźń	friendship
 przyjazny	friendly
@@ -738,7 +738,7 @@ myślałem	I thought (masculine, imperfective)
 przestań	stop (imperative 2nd p. s., perfective)
 zamknąć	to close (perfective)
 zamykać	to close (imperfective)
-zrób	do (imperative, perfective, 2nd p. s.)	1	739480
+zrób	do (imperative, perfective, 2nd p. s.)	2	739480
 powinienem	I ought
 najpierw	first (adverb)
 uważać	to consider
@@ -799,7 +799,7 @@ pomagam	I help (imperfective)
 tędy	this way (pronoun)
 według	according to
 ponad	over, above
-chociaż	although, at least
+chociaż	although, at least	1	739480
 kłopot	trouble
 szansa	chance
 zatrzymać	to stop, to staunch (transitive, perfective)
@@ -835,7 +835,7 @@ przysłówek	adverb
 zaimek	pronoun
 żołnierz	soldier
 widelce	forks (eating utensils, nominative plural)
-noże	knives (eating utensils, nominative plural)
+noże	knives (eating utensils, nominative plural)	1	739480
 listonosz	postman
 przynieść	to bring (perfective)
 złapać	to catch (perfective)
@@ -918,7 +918,7 @@ przerwa	break, interruption, gap
 bez przerwy	nonstop
 gwizdek	whistle
 silny	strong
-nos	nose
+nos	nose	1	739480
 rosnąć	to grow (imperfective)
 urosnąć	to grow (perfective)
 rośniemy	we grow (imperfective)
@@ -972,7 +972,7 @@ krótszy	shorter (adjective)
 krótko	briefly, shortly (adverb)
 krócej	shorter (adverb)
 dłuższy	longer (adjective)
-dłużej	longer (adverb)
+dłużej	longer (adverb)	1	739480
 stolica	capital
 zabytek	monument
 różnica	difference
@@ -998,7 +998,7 @@ niemiec	German
 fałszywy	fake, false
 interesujący	interesting
 krzesło	chair
-w każdym razie	in any case, at any rate
+w każdym razie	in any case, at any rate	1	739480
 po rosyjsku	in Russian
 hiszpania	Spain
 szczupły	slim, slender
@@ -1010,18 +1010,18 @@ buduję	I build (imperfective)
 użyteczny	useful
 użytkownik	user
 dysk twardy	hard disk
-węgierka	Hungarian (feminine)
+węgierka	Hungarian (feminine)	1	739480
 słowacki	Slovak (adjective, non pers.)
 słowaczka	Slovak (adjective, feminine pers)
 słowak	Slovak (adjective, masculin pers.)
 słowacja	Slovakia
-finlandia	Finnland
+finlandia	Finnland	1	739480
 fiński	finnish
 święty	holy, sacred
 święto	holiday, ünnepnap
 świetny	excellent, great (adjective)
 lekki	light, lightweight
-światło	light, fény
+światło	light, fény	1	739480
 pogląd	view (opinion, judgement)
 światopogląd	worldview
 światłość	light, brightness, luminosity
@@ -1108,7 +1108,7 @@ wieść	to lead, to conduct (transitive, determinate, imperfective)
 wieść	message, news
 więzienie	prison, jail
 więzień	prisoner
-włączyć	to switch on (perfective)
+włączyć	to switch on (perfective)	1	739480
 łączyć	to connect (perfective)
 włączę	I turn on (transitive, perfective)
 strzelba	rifle
@@ -1193,7 +1193,7 @@ słodszy	sweeter
 słony	salty (taste)
 gorzki	bitter
 kwaśny	sour, acidic
-najebany	bebaszott
+najebany	bebaszott	1	739480
 jebany	baszott
 pijany	drunk
 jebaniutki	(slang, vulgar, humorous) displaying impressive skill, clever, masterful
@@ -1294,7 +1294,7 @@ brama	gate
 odpad	waste, byproduct
 prąd	current, flow (noun)
 prądnica	electrical generator
-słownik	dictionary, glossary
+słownik	dictionary, glossary	1	739480
 bramkarz	goalkeeper, bouncer, kapus
 gra wstępna	foreplay
 bolesny	painful
@@ -1322,7 +1322,7 @@ rzucić	to throw (perfective)
 rzuć	throw (2nd ps. imperative, perfective)
 kawał	chunk, small piece, a joke
 zajęty	busy, occupied
-uczucie	feeling, emotion
+uczucie	feeling, emotion	1	739480
 potrzebny	necessary
 wyjaśnić	to explain (perfective)
 wyjaśniać	to explain (imperfective)
@@ -1339,7 +1339,7 @@ nieco	slightly, somewhat (adverb)
 wśród	among, amidst (preposition)
 przysługa	favour
 glina	clay
-sąd	court of law
+sąd	court of law	1	739480
 czyścić	to clean (imperfective)
 zamierzać	to intend (imperfective)
 ciąża	pregnancy
@@ -1494,7 +1494,7 @@ chcę	I want (imp.)
 zechcą	they want (perf.)
 chcesz	you want (impf.)
 chciał	he wanted (impf.)
-chciała	she wanted (impf.)
+chciała	she wanted (impf.)	1	739480
 zechcieliby	they would want (masc. perf.)
 chciałem	I wanted (masc. impf.)
 chciałeś	you wanted (masc. impf.)

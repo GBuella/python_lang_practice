@@ -159,7 +159,7 @@ def review_loop(terms, logpath, target):
 
 def overwrite_csv(path, terms):
 	with open(path, mode='w', newline='') as csvfile:
-		writer = csv.writer(csvfile, delimiter='\t', quotechar='|')
+		writer = csv.writer(csvfile, delimiter='\t', quotechar='|', dialect='unix', quoting=csv.QUOTE_MINIMAL)
 		for term in terms:
 			if term['score'] == 0:
 				writer.writerow([term['target'], term['def']])
