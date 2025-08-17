@@ -86,7 +86,7 @@ def readlog(logpath, terms):
 			delta = int(row[1])
 			day = int(row[2])
 			assert(index >= 0 and index < len(terms))
-			assert(delta > 0)
+			assert(delta >= 0)
 			terms[index]['score'] = terms[index]['score'] + delta
 			terms[index]['last'] = day
 
@@ -139,16 +139,20 @@ def review_loop(terms, logpath, target):
 			first = True
 			while True:
 				print("\x1b[2J\x1b[H")
-				print('total_sum is {}'.format(total_sum(terms)))
 				if not first:
 					print('Try again!')
 				print(t['def'])
 				resp = input()
 				if match_response(t['target'], resp):
+					delta = 0
+					day = datetime.utcnow().toordinal()
 					if first:
-						day = datetime.utcnow().toordinal()
 						delta = compute_term_delta(t, day)
 						inc_term_score(terms, index, target, delta, day)
+					else:
+						if t['score'] != 0:
+							terms[index]['last'] = day
+					if t['score'] != 0:
 						log.write('{}\t{}\t{}\n'.format(index, delta, day))
 						log.flush()
 					break;
