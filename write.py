@@ -35,13 +35,22 @@ def total_sum(terms):
 	return terms[-1]['sum']
 
 def read_terms(path):
+	id = 0
 	terms = []
 	with open(path, newline='') as csvfile:
 		datareader = csv.reader(csvfile, delimiter='\t', quotechar='|')
+		first = True
 		for row in datareader:
 			if len(row) == 0:
 				continue
 			if row[0].startswith('#'):
+				continue
+			if first:
+				first = False
+				assert len(row) == 2
+				assert row[0] == 'id'
+				id = int(row[1])
+				assert(id > 0)
 				continue
 			assert len(row) == 2 or len(row) == 4
 			if row[0] in terms:
@@ -54,7 +63,8 @@ def read_terms(path):
 				time = int(row[3])
 			term = {'target': row[0], 'def': row[1], 'score': score, 'last': time}
 			terms.append(term)
-	return terms
+	assert(id > 0)
+	return id, terms
 
 def fill_totals(terms, target):
 	total = 0
@@ -75,12 +85,24 @@ def compute_term_delta(term, day):
 		d = 84
 	return d;
 
-def readlog(logpath, terms):
+def readlog(logpath, terms, id):
 	if not os.path.isfile(logpath):
 		return
 	with open(logpath, newline='') as log:
 		datareader = csv.reader(log, delimiter='\t')
+		first = True
 		for row in datareader:
+			if first:
+				first = False
+				assert len(row) == 2
+				assert row[0] == 'id'
+				if str(id) != row[1]:
+					raise Exception('log does not match')
+				continue
+			if len(row) == 2 and row[0] == 'id':
+				if str(id) != row[1]:
+					raise Exception('log does not match')
+				continue
 			assert(len(row) == 3)
 			index = int(row[0])
 			delta = int(row[1])
@@ -130,8 +152,9 @@ def match_response(term, response):
 			return False
 	return True
 
-def review_loop(terms, logpath, target):
+def review_loop(terms, logpath, target, id):
 	with open(logpath, mode='a') as log:
+		log.write('id\t{}\n'.format(id))
 		while total_sum(terms) > 0:
 			pick = random.randint(1, total_sum(terms))
 			index = find_term_index(terms, pick)
@@ -161,14 +184,17 @@ def review_loop(terms, logpath, target):
 					input()
 				first = False
 
-def overwrite_csv(path, terms):
+def overwrite_csv(path, terms, id):
 	with open(path, mode='w', newline='') as csvfile:
-		writer = csv.writer(csvfile, delimiter='\t', quotechar='|', dialect='unix', quoting=csv.QUOTE_MINIMAL)
+		writer = csv.writer(csvfile, delimiter='\t', quotechar='|',
+					dialect='unix', quoting=csv.QUOTE_MINIMAL)
+		writer.writerow(['id', id])
 		for term in terms:
 			if term['score'] == 0:
 				writer.writerow([term['target'], term['def']])
 			else:
-				writer.writerow([term['target'], term['def'], term['score'], term['last']])
+				writer.writerow([term['target'], term['def'],
+						term['score'], term['last']])
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='practice spelling.')
@@ -181,16 +207,17 @@ if __name__ == '__main__':
 	parser.add_argument('-m', help='merge counts',
 			action='store_true', dest='merge')
 	args = parser.parse_args()
-	terms = read_terms(args.path)
+	id, terms = read_terms(args.path)
 	if len(terms) == 0:
 		sys.exit(0)
 	logpath = args.path + '.log'
-	readlog(logpath, terms)
+	readlog(logpath, terms, id)
 	if args.merge:
 		if not os.path.isfile(logpath):
 			print("No log file found")
 			sys.exit(0)
-		overwrite_csv(args.path, terms)
+		id = id + 1
+		overwrite_csv(args.path, terms, id)
 		sys.exit(0)
 	fill_totals(terms, args.target_count)
-	review_loop(terms, logpath, args.target_count)
+	review_loop(terms, logpath, args.target_count, id)

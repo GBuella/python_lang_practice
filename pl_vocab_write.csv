@@ -1,3 +1,4 @@
+id	2
 jeden	1
 dwa	2
 trzy	3
@@ -526,7 +527,7 @@ kwadrat	square (geometry)
 biodro	hip (anatomy)
 podeszwa	sole (bottom of foot)
 prowadzić	to lead
-obcas	heel (part of a shoe)
+obcas	heel (part of a shoe)	1	739481
 pięta	heel (of a foot)
 gra	game
 dopiero	barely, scarcely, just
@@ -604,7 +605,7 @@ półtora	1.5
 wyspa	island
 półprzewodnik	semiconductor
 wór	large bag, sack
-pojęcie	concept, idea, notion	2	739480
+pojęcie	concept, idea, notion	6	739481
 skarb	treasure
 wybaczyć	to forgive (perfective)
 cieszyć	to rejoice (imperfective)
@@ -782,7 +783,7 @@ indyk	turkey (bird)
 most	bridge
 fart	luck (colloquial)
 winda	elevator
-cywilizacja	civilisation
+cywilizacja	civilisation	1	739481
 keczup	ketchup
 biznes	business
 lustro	mirror
@@ -811,7 +812,7 @@ zaczynać	to begin (imperfective)
 cicho	quietly
 głośny	loud
 zapomnieć	to forget (perfective)
-zapomniałem jego twarz	I forgot his face
+zapomniałem jego twarz	I forgot his face	1	739481
 nie zapomniałem jego twarzy	I didn't forget his face
 zgubić	to lose, to misplace (perfective)
 zgubiłem klucze	I lost the keys	1	739480
@@ -1233,7 +1234,7 @@ byt	being, entity
 potrawa	dish, meal (p:)
 zdziwienie	astonishment
 zdziwić się	to be surprised (perfective)
-kumpel	friend (k:)
+kumpel	friend (k:)	1	739481
 okulary	glasses	1	739480
 zajrzeć	to look, to peek (perfective, z:)
 to nie będzie bolało	it won't hurt
@@ -1282,7 +1283,7 @@ nóżka	leg (diminutive) (supporting leg of e.g. kielich)
 rolnik	farmer
 rękawica	glove
 rozkład	schedule, timetable
-podręcznik	textbook, manual, kézikönyv
+podręcznik	textbook, manual, kézikönyv	1	739481
 rękaw	sleeve
 zarząd	administration, council, management
 zarządca	manager (z:)
@@ -1292,7 +1293,7 @@ powszedni	commonplace (adjective)
 śnieg	snow
 brama	gate
 odpad	waste, byproduct
-prąd	current, flow (noun)
+prąd	current, flow (noun)	1	739481
 prądnica	electrical generator
 słownik	dictionary, glossary	2	739480
 bramkarz	goalkeeper, bouncer, kapus
@@ -1309,7 +1310,7 @@ filar	pillar
 brzuch	belly, abdomen
 niedźwiedź	bear
 moda	fashion	2	739480
-pismo	handwriting
+pismo	handwriting	1	739481
 sierżant	sergeant
 niszczyć	to destroy (imperfective)
 oddać	to give back, to pay back (perfective)
@@ -1395,7 +1396,7 @@ głęboki	deep (adjective)
 głębia	depth
 czarować	to do magic (imperfective)
 czarownica	witch (feminine)
-czarownik	sorcerer, warlock, wizard (masculine)	2	739480
+czarownik	sorcerer, warlock, wizard (masculine)	6	739481
 równoległy	parallel (adjective)	2	739480
 równolegle	parallel (adverb)
 mistrz	master, champion (noun)

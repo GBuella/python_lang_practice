@@ -37,20 +37,24 @@ example_terms = [{'target': 'a', 'def': 'b', 'score': 0, 'last': 0},
 
 class test_term_reading(unittest.TestCase):
 	def test_read_file(self):
-		with patch("builtins.open", mock_open(read_data="")) as mock_file:
-			self.assertEqual(write.read_terms("any"), [])
+		with patch("builtins.open", mock_open(read_data="id\t1\n")) as mock_file:
+			self.assertEqual(write.read_terms("any"), (1, []))
 			mock_file.assert_called_with("any", newline='')
-		with patch("builtins.open", mock_open(read_data="# comment\n")) as mock_file:
-			self.assertEqual(write.read_terms("any"), [])
+		with patch("builtins.open", mock_open(read_data="# comment\nid\t99\n")) as mock_file:
+			self.assertEqual(write.read_terms("any"), (99, []))
 			mock_file.assert_called_with("any", newline='')
-		text = "a\tb\n"
+		text = "id\t3\na\tb\n"
 		expected = [{'target': 'a', 'def': 'b', 'score': 0, 'last':0}]
 		with patch("builtins.open", mock_open(read_data=text)) as mock_file:
-			self.assertEqual(write.read_terms("any"), expected)
+			id, t = write.read_terms("any")
+			self.assertEqual(id, 3)
+			self.assertEqual(t, expected)
 		text = text + "c\td\t5\t739479\n"
 		expected.append({'target': 'c', 'def': 'd', 'score': 5, 'last': 739479})
 		with patch("builtins.open", mock_open(read_data=text)) as mock_file:
-			self.assertEqual(write.read_terms("any"), expected)
+			id, t = write.read_terms("any")
+			self.assertEqual(id, 3)
+			self.assertEqual(t, expected)
 
 	def test_compute_term_delta(self):
 		self.assertEqual(write.compute_term_delta(
@@ -132,15 +136,22 @@ class test_term_reading(unittest.TestCase):
 	@patch('os.path.isfile')
 	def test_readlog(self, mock_isfile):
 		mock_isfile.return_value = True
-		with patch("builtins.open", mock_open(read_data="")) as mock_file:
+		with patch("builtins.open", mock_open(read_data="id\t33\n")) as mock_file:
 			terms = copy.deepcopy(example_terms)
-			write.readlog("any", terms)
+			with self.assertRaises(Exception) as err:
+				write.readlog("any", terms, 99)
+			self.assertEqual(str(err.exception), 'log does not match')
 			mock_file.assert_called_with("any", newline='')
 			self.assertEqual(terms, example_terms)
-		log = "1\t1\t730120\n0\t1\t730120\n1\t1\t730121\n2\t2\t730121\n"
+		with patch("builtins.open", mock_open(read_data="id\t3\n")) as mock_file:
+			terms = copy.deepcopy(example_terms)
+			write.readlog("any", terms, 3)
+			mock_file.assert_called_with("any", newline='')
+			self.assertEqual(terms, example_terms)
+		log = "id\t3\n1\t1\t730120\n0\t1\t730120\n1\t1\t730121\n2\t2\t730121\n"
 		with patch("builtins.open", mock_open(read_data=log)) as mock_file:
 			terms = copy.deepcopy(example_terms)
-			write.readlog("any", terms)
+			write.readlog("any", terms, 3)
 			mock_file.assert_called_with("any", newline='')
 			self.assertEqual(terms,
 				[{'target': 'a', 'def': 'b', 'score': 1, 'last': 730120},
