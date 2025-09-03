@@ -1,711 +1,711 @@
-id	3
+id	4
 jeden	1
-dwa	2
-trzy	3
-cztery	4	1	739482
-pięć	5
+dwa	2	1	739489
+trzy	3	1	739484
+cztery	4	29	739489
+pięć	5	2	739488
 sześć	6	1	739482
-siedem	7	9	739482
+siedem	7	10	739482
 osiem	8
 dziewięć	9
-dziesięć	10
+dziesięć	10	1	739489
 jedenaście	11	1	739482
-dwanaście	12
-trzynaście	13	1	739480
-czternaście	14	2	739480
+dwanaście	12	1	739484
+trzynaście	13	17	739484
+czternaście	14	2	739497
 piętnaście	15
-szesnaście	16	1	739482
-siedemnaście	17	1	739480
-osiemnaście	18
-dziewiętnaście	19	10	739482
+szesnaście	16	9	739484
+siedemnaście	17	69	739497
+osiemnaście	18	1	739497
+dziewiętnaście	19	34	739488
 dwadzieścia	20
-trzydzieści	30	1	739482
-czterdzieści	40
+trzydzieści	30	30	739489
+czterdzieści	40	5	739483
 pięćdziesiąt	50
-sześćdziesiąt	60	1	739480
-siedemdziesiąt	70	1	739480
-osiemdziesiąt	80
+sześćdziesiąt	60	9	739482
+siedemdziesiąt	70	17	739484
+osiemdziesiąt	80	9	739484
 dziewięćdziesiąt	90	2	739480
-sto	100	1	739482
+sto	100	29	739489
 dwieście	200	1	739482
-trzysta	300	1	739480
-czterysta	400
-pięćset	500	1	739480
+trzysta	300	13	739483
+czterysta	400	29	739489
+pięćset	500	2	739489
 sześćset	600	1	739480
-siedemset	700
-osiemset	800
-dziewięćset	900	1	739482
-tysiąc	1000	1	739480
+siedemset	700	1	739483
+osiemset	800	1	739488
+dziewięćset	900	6	739483
+tysiąc	1000	69	739497
 pierwszy	first (masculine)
 drugi	second (masculine)	2	739480
-trzeci	third (masculine)
-trzecia	third (feminine)
+trzeci	third (masculine)	1	739489
+trzecia	third (feminine)	2	739483
 czwarty	fourth (masculine)
-piąty	fifth (masculine)
+piąty	fifth (masculine)	1	739490
 piąta	fifth (feminine)
-szósty	sixth (masculine)
-siódmy	seventh (masculine)
-ósmy	eighth (masculine)
-dziewiąty	ninth (masculine)
+szósty	sixth (masculine)	1	739483
+siódmy	seventh (masculine)	5	739483
+ósmy	eighth (masculine)	1	739483
+dziewiąty	ninth (masculine)	62	739497
 dziesiąty	tenth (masculine)
-jedenasty	eleventh (masculine)	2	739482
+jedenasty	eleventh (masculine)	6	739483
 dwunasty	twelfth (masculine)
-trzynasty	thirteenth (masculine)	1	739482
-czternasty	fourteenth (masculine)
-piętnasty	fifteenth (masculine)
-setny	hundredth (masculine)
-dwudziesty	twentieth (masculine)
-dwusetny	two hundredth (masculine)
+trzynasty	thirteenth (masculine)	34	739490
+czternasty	fourteenth (masculine)	57	739497
+piętnasty	fifteenth (masculine)	37	739497
+setny	hundredth (masculine)	1	739489
+dwudziesty	twentieth (masculine)	49	739496
+dwusetny	two hundredth (masculine)	1	739484
 trzydziesty	thirtieth (masculine)	1	739482
-tysięczny	thousandth (masculine)	2	739480
+tysięczny	thousandth (masculine)	14	739483
 najpóźniej	at the latest (adverb)	1	739482
 najpóźniejszy	latest (adjective)
-najwcześniej	earliest (adverb)	2	739480
+najwcześniej	earliest (adverb)	71	739497
 najwcześniejszy	earliest (adjective)
-większy	bigger (adjective)	2	739480
-mniejszy	smaller (adjective)
+większy	bigger (adjective)	10	739482
+mniejszy	smaller (adjective)	1	739483
 starszy	older (adjective)
-młodszy	younger (adjective)
-szybciej	faster (adverb)	1	739482
-szybszy	faster (adjective)
-wolniejszy	slower (adjective)	3	739480
-wolniej	slower (adverb)	1	739480
-lepszy	better (adjective)
+młodszy	younger (adjective)	25	739490
+szybciej	faster (adverb)	1	739497
+szybszy	faster (adjective)	1	739489
+wolniejszy	slower (adjective)	71	739497
+wolniej	slower (adverb)	69	739497
+lepszy	better (adjective)	5	739484
 lepiej	better (adverb)	1	739482
-gorszy	worse (adjective)	1	739482
-droższy	more expensive (adjective)
+gorszy	worse (adjective)	5	739483
+droższy	more expensive (adjective)	1	739483
 drożej	more expensively (adverb)	2	739480
-tańszy	cheaper (adjective)	1	739482
+tańszy	cheaper (adjective)	9	739484
 taniej	cheaper (adverb)	1	739480
-zieleńszy	greener (adjective)
+zieleńszy	greener (adjective)	29	739489
 szerszy	wider (adjective)
-węższy	narrower (adjective)
-silniejszy	stronger (adjective)
+węższy	narrower (adjective)	10	739496
+silniejszy	stronger (adjective)	1	739484
 słabszy	weaker (adjective)
-słabiej	weaker (adverb)
-ładniejszy	prettier (adjective)	9	739482
-brzydszy	uglier (adjective)
-ostrzejszy	sharper (adjective)	1	739480
+słabiej	weaker (adverb)	1	739489
+ładniejszy	prettier (adjective)	65	739496
+brzydszy	uglier (adjective)	21	739490
+ostrzejszy	sharper (adjective)	38	739489
 wyższy	taller (adjective)
-niższy	shorter, lower (adjective, not tall)
-głupszy	stupider (adjective, masculine)
-głupio	stupidly
-głupiej	more stupidly
+niższy	shorter, lower (adjective, not tall)	53	739496
+głupszy	stupider (adjective, masculine)	1	739497
+głupio	stupidly	5	739483
+głupiej	more stupidly	1	739482
 głupsza	stupider (adjective, feminine)
-głupsze	stupider (adjective, neuter)
+głupsze	stupider (adjective, neuter)	5	739483
 bystrzejszy	smarter (adjective, masculine)
-bystro	smartly
+bystro	smartly	54	739496
 bystrzej	smarter (adverb)
 więcej	bigger, more (adverb)
 powiedzieć	to say (perfective)
 razem	altogether (adverb)
-więc	therefore (conjuction) w:
-żeby	in order to	1	739480
-prawda	truth	1	739480
-chyba	perhaps	2	739480
-nawet	even (particle)
-właśnie	exactly (interjection)
-zawsze	always
-trochę	a little (adverb)	1	739482
-wszyscy	everyone
-prosty	simple
+więc	therefore (conjuction) w:	64	739497
+żeby	in order to	9	739482
+prawda	truth	9	739482
+chyba	perhaps	10	739482
+nawet	even (particle)	1	739497
+właśnie	exactly (interjection)	1	739482
+zawsze	always	34	739490
+trochę	a little (adverb)	3	739482
+wszyscy	everyone	1	739483
+prosty	simple	1	739483
 ludzie	people	1	739480
-życie	life	1	739482
-nikt	no one
-oczywiście	of course
+życie	life	28	739488
+nikt	no one	61	739497
+oczywiście	of course	1	739482
 stąd	from here
-wtedy	then (at that time)	1	739482
-aby	so that	2	739480
+wtedy	then (at that time)	61	739497
+aby	so that	18	739484
 pewny	sure
 cóż	whatever (short pronoun)
-potem	then (after)	1	739480
-iść	to go (imperfective)
+potem	then (after)	37	739489
+iść	to go (imperfective)	5	739483
 wyglądać	to look (intransitive, imperfective)
-skąd	from where	1	739482
-cały	whole
+skąd	from where	61	739497
+cały	whole	9	739484
 dlatego	that's why	1	739482
 jasny	bright
 ciemny	dark
-zaraz	soon	9	739482
-wiele	a lot
-pomóc	help	1	739482
-wiedzieć	to know (intransitive, imperfective)
-tyle	so much	1	739480
+zaraz	soon	37	739489
+wiele	a lot	2	739483
+pomóc	help	5	739490
+wiedzieć	to know (intransitive, imperfective)	1	739483
+tyle	so much	69	739497
 zobaczyć	to see (perfective)
-kiedyś	sometime	1	739482
-świetnie	great
-sposób	manner	4	739480
+kiedyś	sometime	5	739484
+świetnie	great	1	739483
+sposób	manner	12	739482
 pieniądze	money
-widzieć	to see (imperfective)	1	739482
+widzieć	to see (imperfective)	2	739482
 wyjrzeć	to look (intransitive, perfective)
-zanim	before (in time, conjunction)
-aż	until
+zanim	before (in time, conjunction)	21	739489
+aż	until	29	739489
 długi	long (adjective)	1	739480
-każdy	each
-znowu	again
-spokój	peace
-ponieważ	because	9	739482
+każdy	each	17	739488
+znowu	again	57	739497
+spokój	peace	25	739488
+ponieważ	because	37	739489
 spojrzeć	to glance (perfective)
 stan	condition
-drzwi	door
+drzwi	door	1	739497
 gdyby	if
 przecież	but (p:)	1	739480
 człowiek	human
-wciąż	still (adverb, még mindig, w:)
-zostać	to stay (perfective)	1	739480
+wciąż	still (adverb, még mindig, w:)	33	739497
+zostać	to stay (perfective)	41	739490
 zostawać	to stay (imperfective)
-dokładnie	exactly (adverb)
-chwila	moment
-nadal	still (adverb, továbbra is, n:)
+dokładnie	exactly (adverb)	5	739484
+chwila	moment	1	739482
+nadal	still (adverb, továbbra is, n:)	22	739489
 mówić	to say (imperfective)
 spoglądać	to glance (imperfective)
-myśleć	to think (imperfective)	10	739482
-pomyśleć	to think (perfective)	1	739480
+myśleć	to think (imperfective)	70	739497
+pomyśleć	to think (perfective)	9	739482
 pójść	to go (perfective)
-dokładny	exact (adjective)
-mężczyzna	man
-kobieta	woman	1	739482
-dziecko	child	1	739480
-pokój	room
+dokładny	exact (adjective)	1	739497
+mężczyzna	man	17	739488
+kobieta	woman	29	739489
+dziecko	child	33	739488
+pokój	room	1	739497
 okno	window	1	739482
-pasażer	passenger	2	739480
-czerwony	red	1	739482
+pasażer	passenger	14	739483
+czerwony	red	29	739489
 niebieski	blue	2	739480
 pomarańczowy	orange (color)
 żółty	yellow
-zielony	green	2	739480
-czarny	black	11	739482
-biały	white
+zielony	green	18	739484
+czarny	black	12	739482
+biały	white	25	739489
 różowy	pink	2	739482
-fioletowy	purple	1	739482
-miły	nice (adjective)	3	739482
-ciągły	continuous (adjective)
+fioletowy	purple	62	739497
+miły	nice (adjective)	11	739484
+ciągły	continuous (adjective)	53	739496
 jeszcze	yet (particle, még, még több)
-już	already (adverb, interjection)
+już	already (adverb, interjection)	1	739482
 porządek	order (noun)
-gdy	when (conjunction)
-chodzić	to walk (to go to, to frequent)
-niech	let (may)	2	739480
-stać	to stand (to stagnate, intransitive, imperfective)	1	739482
-postać	to stand (intransitive, prefective)	1	739482
-mieć	to have (imperfective)
+gdy	when (conjunction)	25	739489
+chodzić	to walk (to go to, to frequent)	29	739490
+niech	let (may)	18	739484
+stać	to stand (to stagnate, intransitive, imperfective)	61	739497
+postać	to stand (intransitive, prefective)	1	739497
+mieć	to have (imperfective)	1	739489
 rzecz	thing (noun)	1	739480
 dziać	to happen (reflexive)	1	739482
-taki	such (pronoun)
+taki	such (pronoun)	5	739484
 znaczyć	to mean (imperfective)	1	739482
-dać	to give (perfective)	1	739482
-dawać	to give (imperfective)
-niż	than (conjuction)	1	739480
+dać	to give (perfective)	61	739497
+dawać	to give (imperfective)	2	739483
+niż	than (conjuction)	1	739482
 czasem	sometimes (from time to time, adverb)	10	739482
 odpowiedzieć za ACC	to answer for (to be held responsible for, perfective)
 odpowiadać za ACC	to answer for (to be held responsible for, imperfective)
 odpowiadać DAT	to suit (imperfective)
 wczoraj	yesterday
-jutro	tomorrow	2	739480
-dzisiejszy	today's (adjective)
+jutro	tomorrow	70	739497
+dzisiejszy	today's (adjective)	53	739496
 rozumieć	to understand (transitive, imperfective)
-zrozumieć	to understand (transitive, perfective)
+zrozumieć	to understand (transitive, perfective)	1	739489
 rozum	reason (noun, capacity of the human mind)	1	739482
-rozumny	reasonable (adjective)
-zrozumiały	comprehensible (adjective)
+rozumny	reasonable (adjective)	9	739484
+zrozumiały	comprehensible (adjective)	61	739497
 miejsce	place (noun)
 szybki	quick	1	739482
-wolny	slow (adjective)
-wolny	free (adjective)	10	739482
-wola	will (noun)	1	739480
-przycisk	button (to be pressed)
-przykro	sorry (short)
-stary	old (adjective)
-nowy	new (adjective)
-młody	young (adjective)
+wolny	slow (adjective)	53	739496
+wolny	free (adjective)	19	739484
+wola	will (noun)	17	739484
+przycisk	button (to be pressed)	5	739489
+przykro	sorry (short)	1	739489
+stary	old (adjective)	1	739483
+nowy	new (adjective)	1	739483
+młody	young (adjective)	1	739483
 kochanie	darling (noun)	9	739482
-który	which (pronoun)	11	739482
+który	which (pronoun)	43	739490
 przestać	to stop (intransitive, perfective)
-pracowity	hard-working (adjective)	2	739480
-pracować	to work (intransitive, imperfective)
-popracować	to work (intransitive, perfective)
-rejestracja	registration (noun)	1	739482
+pracowity	hard-working (adjective)	70	739497
+pracować	to work (intransitive, imperfective)	61	739497
+popracować	to work (intransitive, perfective)	2	739497
+rejestracja	registration (noun)	33	739490
 maleństwo	little one (noun)
 jabłko	apple
-dziewczyna	girl
-chłopiec	boy	1	739482
+dziewczyna	girl	1	739497
+chłopiec	boy	61	739497
 chleb	bread
 mleko	milk
 ciasteczko	cookie
-lubić	to like (imperfective)	2	739480
-polubić	to like (perfective)
-koń	horse	1	739482
+lubić	to like (imperfective)	38	739489
+polubić	to like (perfective)	21	739489
+koń	horse	9	739484
 klacz	mare
 ogier	stallion
-słoń	elephant
+słoń	elephant	1	739497
 pies	dog	10	739482
-pająk	spider
-kaczka	duck
-zwierzę	animal
+pająk	spider	1	739490
+kaczka	duck	54	739496
+zwierzę	animal	49	739496
 mysz	mouse	1	739482
-tygrys	tiger
-lew	lion	2	739482
-ptak	bird
-ryba	fish
-krab	crab	1	739482
-jajko	egg	4	739480
-wino	wine	9	739482
-herbata	tea	3	739482
-śniadanie	breakfast
-obiad	lunch
-kolacja	supper
-posiłek	meal
-jedzenie	food	2	739482
+tygrys	tiger	58	739496
+lew	lion	62	739497
+ptak	bird	9	739484
+ryba	fish	1	739483
+krab	crab	58	739496
+jajko	egg	16	739483
+wino	wine	37	739489
+herbata	tea	31	739489
+śniadanie	breakfast	9	739484
+obiad	lunch	1	739490
+kolacja	supper	1	739489
+posiłek	meal	57	739496
+jedzenie	food	32	739489
 owoce	fruit
-smaczny	tasty (adjective)
-mięso	meat	2	739480
-pomidor	tomato
-ser	cheese
+smaczny	tasty (adjective)	1	739482
+mięso	meat	38	739497
+pomidor	tomato	61	739497
+ser	cheese	1	739484
 warzywo	vegetable
 nosić	to carry (to wear, indeterminate, imperfective)
 nieść	to carry (determinate, imperfective)
-płaszcz	overcoat
-koszula	shirt
-sukienka	dress (noun)
-spodnie	trousers	1	739482
-kapelusz	hat	1	739482
+płaszcz	overcoat	1	739482
+koszula	shirt	1	739496
+sukienka	dress (noun)	1	739497
+spodnie	trousers	5	739483
+kapelusz	hat	5	739483
 spódnica	skirt
-bluza	sweatshirt	1	739482
-but	shoe
-ubranie	clothes
+bluza	sweatshirt	33	739490
+but	shoe	1	739484
+ubranie	clothes	1	739489
 skarpeta	sock	1	739480
 kurtka	jacket
-czapka	cap (hat)
-majtki	underpants	1	739482
-kochać	to love (imperfective)
-znać	to know (ismerni, imperfective)	2	739480
-pisać	to write (imperfective)
+czapka	cap (hat)	1	739483
+majtki	underpants	22	739489
+kochać	to love (imperfective)	1	739484
+znać	to know (ismerni, imperfective)	38	739489
+pisać	to write (imperfective)	27	739488
 napisać	to write (perfective)
-książka	book (noun)
-książkowy	book (adjective)
-list	letter (written message)	10	739482
-słyszeć	to hear (imperfective)	1	739482
+książka	book (noun)	1	739483
+książkowy	book (adjective)	1	739497
+list	letter (written message)	18	739484
+słyszeć	to hear (imperfective)	9	739484
 usłyszeć	to hear (perfective)
 głos	voice (noun)	2	739482
-szkoła	school
-potrzebować	to need (imperfective)
-słuchać	to listen (imperfective)	10	739482
-posłuchać	to listen (perfective)
-muzyka	music
-siostra	sister	1	739480
-brat	brother
-matka	mother	1	739480
-ojciec	father
-syn	son
+szkoła	school	1	739489
+potrzebować	to need (imperfective)	1	739497
+słuchać	to listen (imperfective)	70	739497
+posłuchać	to listen (perfective)	9	739484
+muzyka	music	1	739483
+siostra	sister	37	739489
+brat	brother	5	739489
+matka	mother	69	739497
+ojciec	father	5	739484
+syn	son	25	739489
 córka	daughter
-ciocia	aunt
+ciocia	aunt	1	739483
 wujek	uncle
-mąż	husband
-żona	wife
+mąż	husband	1	739489
+żona	wife	1	739483
 rodzina	family
-babcia	grandmother
-dziadek	grandfather	1	739480
+babcia	grandmother	9	739490
+dziadek	grandfather	37	739489
 małżeństwo	marriage	4	739480
 rodzic	parent
 rodzeństwo	siblings
 kolorowy	colourful
 brązowy	brown
-szary	grey
+szary	grey	1	739483
 pytanie	question	1	739482
-pytać	to ask (imperfective)
+pytać	to ask (imperfective)	5	739483
 zapytać	to ask (perfective)
-odpowiedź	answer (noun)
-kroić	to cut (imperfective)
+odpowiedź	answer (noun)	1	739497
+kroić	to cut (imperfective)	1	739483
 spać	to sleep (imperfective)	1	739482
 odpis	copy (noun)
-wejście	entrance	1	739482
+wejście	entrance	1	739489
 przejść	to pass
-nieczynny	closed (adjective) (n:)
-zamknięty	closed (adjective) (z:)
-siłownia	gym	1	739480
+nieczynny	closed (adjective) (n:)	61	739497
+zamknięty	closed (adjective) (z:)	5	739489
+siłownia	gym	17	739484
 wyjść	to leave (intransitive, perfective)	1	739482
-wyłączyć	to turn off (perfective)	2	739480
-czysty	clean	1	739480
+wyłączyć	to turn off (perfective)	3	739489
+czysty	clean	45	739497
 dostępny	accessible
-stół	table (furniture)
+stół	table (furniture)	1	739490
 podstawowy	basic
-krok	step
+krok	step	1	739490
 obrót	spin
-początek	beginning	2	739482
+początek	beginning	10	739484
 łatwy	easy
-trudny	difficult
+trudny	difficult	2	739483
 koniec	end	2	739482
 stopa	foot
-kolano	knee
-ręka	hand
+kolano	knee	1	739489
+ręka	hand	57	739497
 ramię	arm	1	739482
 głowa	head	1	739482
-nigdy	never
-nigdzie	nowhere
-sam	alone
+nigdy	never	2	739484
+nigdzie	nowhere	53	739497
+sam	alone	9	739490
 pod	below
-dzieje	history	10	739482
+dzieje	history	18	739484
 nad	above
-racja	point (opinion which adds to the discussion)	1	739480
-nadzieja	hope
+racja	point (opinion which adds to the discussion)	9	739482
+nadzieja	hope	29	739496
 przyszły	future (adjective)
-następny	next	2	739480
-poprzedni	previous
+następny	next	34	739488
+poprzedni	previous	5	739484
 koło	wheel
-środek	middle
-biurko	desk
+środek	middle	1	739497
+biurko	desk	1	739488
 kuchnia	kitchen
-podłoga	floor
-sufit	ceiling	1	739482
+podłoga	floor	21	739489
+sufit	ceiling	25	739488
 ściana	wall	2	739480
 korytarz	corridor
-klamka	doorhandle
+klamka	doorhandle	1	739482
 obok	beside
 wysoki	tall
 niski	low	1	739480
-bliski	near
-daleki	far	1	739482
-napój	beverage
-między	between
-siąść	to sit down (perfective)
+bliski	near	1	739484
+daleki	far	1	739497
+napój	beverage	49	739496
+między	between	1	739484
+siąść	to sit down (perfective)	1	739483
 siedzieć	to sit (imperfective)
 chcieć	to want (imperfective)	1	739482
 brać	to take (imperfective)
 wziąć	to take (perfective)
-wół	ox
+wół	ox	7	739484
 cebula	onion
 ziemniak	potato
 czosnek	garlic
 pieprz	pepper
 orzech	nut
-arbuz	watermelon
-śliwka	plum
-miód	honey	1	739480
+arbuz	watermelon	1	739483
+śliwka	plum	57	739497
+miód	honey	17	739484
 danie	course, dish
-naleśnik	pancake
+naleśnik	pancake	30	739496
 pączek	doughnut
-grzyb	mushroom
-droga	way	1	739482
-podróż	journey	2	739480
+grzyb	mushroom	1	739497
+droga	way	33	739490
+podróż	journey	38	739490
 podróżnik	traveller	2	739480
 dojść	to arrive on foot, to reach
 kasownik	ticket validator
-kwiat	flower	1	739482
+kwiat	flower	29	739489
 lód	ice	1	739482
-wiatr	wind
+wiatr	wind	53	739497
 deszcz	rain	1	739480
 zajebiście	awesomely
-srać	to defecate (vulgar)
-ząb	tooth	2	739480
-zęby	teeth
-oko	eye
-oczy	eyes	2	739482
-pierś	breast	2	739480
-plecy	back (anatomy)	1	739480
+srać	to defecate (vulgar)	2	739484
+ząb	tooth	14	739483
+zęby	teeth	29	739489
+oko	eye	58	739497
+oczy	eyes	30	739489
+pierś	breast	2	739482
+plecy	back (anatomy)	69	739497
 prącie	penis	1	739480
-serce	heart
+serce	heart	57	739497
 dziura	hole
 sutek	nipple
-udo	thigh
-ucho	ear
+udo	thigh	1	739483
+ucho	ear	53	739497
 palec	finger	1	739482
-ciało	body
-bark	shoulder
-tani	cheap	1	739480
+ciało	body	17	739488
+bark	shoulder	1	739490
+tani	cheap	69	739497
 drogi	expensive
 biegać	to run (imperfective)
-czytać	to read (imperfective)	1	739480
+czytać	to read (imperfective)	17	739484
 uciekać	to escape (imperfective)
 czekać	to wait (imperfective)	1	739482
-otworzyć	to open (perfective)	1	739480
-otwierać	to open (imperfective)	1	739482
+otworzyć	to open (perfective)	1	739482
+otwierać	to open (imperfective)	58	739496
 kupić	to buy (perfective)
 kupować	to buy (imperfective)
-sprzedać	to sell (perfective)	1	739482
-ostatni	final	9	739482
+sprzedać	to sell (perfective)	2	739482
+ostatni	final	13	739483
 różny	various, different
 wczesny	early (adjective)
 ważny	important
-tydzień	week
+tydzień	week	29	739489
 znaleźć	to find (perfective)
 czuć	to feel (imperfective)
-szelki	suspenders
-szalik	scarf
+szelki	suspenders	1	739483
+szalik	scarf	1	739497
 spóźniony	late, delayed
-głodny	hungry
+głodny	hungry	1	739489
 włosy	hair
-mokry	wet	1	739482
-pot	sweat, perspiration, sudor
-gorący	hot, warm	1	739482
-gorączka	fever
+mokry	wet	29	739489
+pot	sweat, perspiration, sudor	1	739482
+gorący	hot, warm	29	739489
+gorączka	fever	5	739484
 zimny	cold (adjective)
-ciepły	warm	2	739480
-łysy	bald
-ekran	screen	1	739482
-sieć	network
-broń	weapon
+ciepły	warm	35	739488
+łysy	bald	1	739496
+ekran	screen	5	739483
+sieć	network	2	739497
+broń	weapon	1	739490
 bronić	to defend (imperfective)
-zabić	to kill (perfective)	2	739482
-facet	guy, fellow, chap	1	739482
+zabić	to kill (perfective)	8	739497
+facet	guy, fellow, chap	57	739496
 którzy	which (pl)
 żaden	none	1	739482
-porozmawiać	to talk, to speak, to converse, to chat (perfective)
+porozmawiać	to talk, to speak, to converse, to chat (perfective)	2	739489
 rozmawiać	to talk, to speak, to converse, to chat (imperfective)	1	739480
 dość	quite, enough
-jakby	as if
+jakby	as if	1	739482
 wydawać	to spend (imperfective)
-wydać	to spend (perfective)	9	739482
-sprawa	issue, affair, matter, business	9	739482
-trzymać	to hold (imperfective)
-szachy	chess	2	739480
-szachownica	chessboard	1	739482
-powód	cause, reason
-pomysł	idea
+wydać	to spend (perfective)	17	739484
+sprawa	issue, affair, matter, business	19	739484
+trzymać	to hold (imperfective)	1	739482
+szachy	chess	11	739482
+szachownica	chessboard	61	739497
+powód	cause, reason	30	739490
+pomysł	idea	1	739482
 pewien	sure, certain (physically secure and certain, reliable)
-dokąd	where to	2	739480
+dokąd	where to	66	739496
 dotąd	to here
-samochód	car
-świat	world
+samochód	car	1	739497
+świat	world	5	739483
 wystarczać	to be enough, to suffice (imperfective)
-śmierć	death
+śmierć	death	1	739484
 właściwie	actually, in fact, correctly
-skoro	since
-staw	pond	11	739482
-morze	sea	2	739480
-ubezpieczenie	insurance
-pozwolić	to allow, to permit, to consent to (perfective)	1	739482
-pozwalać	to allow, to permit, to consent to (imperfective)
+skoro	since	1	739488
+staw	pond	19	739484
+morze	sea	22	739488
+ubezpieczenie	insurance	57	739497
+pozwolić	to allow, to permit, to consent to (perfective)	42	739496
+pozwalać	to allow, to permit, to consent to (imperfective)	1	739497
 ćwiczenie	exercise
 zawierać	to contain (imperfective)
-zakaz	ban, prohibition
-przychodzić	to arrive, to come (imperfective)	1	739482
-pociąg	train	1	739480
+zakaz	ban, prohibition	61	739497
+przychodzić	to arrive, to come (imperfective)	33	739490
+pociąg	train	13	739483
 zegar	clock
-lato	summer
-zima	winter
-wiosna	spring	1	739480
-jesień	autumn
+lato	summer	1	739483
+zima	winter	1	739484
+wiosna	spring	33	739488
+jesień	autumn	2	739489
 wspierać	to support (imperfective)	1	739482
-podczas	during
-zapamiętać	to memorise (perfective)	2	739480
-sądzić	to think; to suppose; to presume; to hold an opinion; to judge; to try	1	739482
-wrócić	to return (perfective)
-wracać	to return (imperfective)	3	739480
-diabeł	devil
+podczas	during	1	739483
+zapamiętać	to memorise (perfective)	11	739484
+sądzić	to think; to suppose; to presume; to hold an opinion; to judge; to try	2	739482
+wrócić	to return (perfective)	1	739489
+wracać	to return (imperfective)	12	739482
+diabeł	devil	53	739496
 poważnie	seriously
 waga	scales
-natychmiast	immediately	1	739480
+natychmiast	immediately	10	739482
 również	also (r:)	10	739482
-działać	to work, to function properly
--kolwiek	-whatever	1	739482
-zostawić	to leave (transitive, perfective)	2	739480
-bóg	god	12	739482
+działać	to work, to function properly	1	739482
+-kolwiek	-whatever	29	739489
+zostawić	to leave (transitive, perfective)	42	739490
+bóg	god	41	739489
 wierzyć	to believe (imperfective)
 ufać	to trust (imperfective)
 prysznic	shower
-żart	joke	1	739482
+żart	joke	29	739489
 gdybym	if I
-inaczej	otherwise
-zgadzać się	to agree (imperfective)	1	739482
+inaczej	otherwise	33	739490
+zgadzać się	to agree (imperfective)	33	739497
 skręcić	to twist (transitive), to turn (intransitive) (perfective)
-kręcić	to twist, to spin (transitive) (imperfective)
+kręcić	to twist, to spin (transitive) (imperfective)	1	739497
 późny	late (adjective, near the end of a period of time)
 późno	late (adverb)
-śliski	slippery
-wątroba	liver
-karać	to punish (imperfective)	1	739482
-warsztat	workshop	11	739482
-wojna	war
-szeroki	wide	1	739480
+śliski	slippery	37	739497
+wątroba	liver	1	739497
+karać	to punish (imperfective)	1	739497
+warsztat	workshop	71	739497
+wojna	war	21	739488
+szeroki	wide	13	739483
 wąski	narrow
-szerokość	width	1	739482
-wysokość	height
-podstawa	base
+szerokość	width	62	739497
+wysokość	height	1	739489
+podstawa	base	1	739489
 dłoń	palm (anatomy)
-zmiana	change	10	739482
+zmiana	change	14	739483
 kwadrat	square (geometry)	1	739482
-biodro	hip (anatomy)
+biodro	hip (anatomy)	22	739489
 podeszwa	sole (bottom of foot)
 prowadzić	to lead	1	739482
 obcas	heel (part of a shoe)	1	739481
-pięta	heel (of a foot)
-gra	game
-dopiero	barely, scarcely, just
-wcale	not at all (adverb)
-udać	to pretend (perfective)
-poznać	to get to know, to meet (perfective)
-dopóki	as long as	1	739482
-zapalniczka	lighter (for cigarettes)
+pięta	heel (of a foot)	1	739497
+gra	game	2	739483
+dopiero	barely, scarcely, just	1	739484
+wcale	not at all (adverb)	1	739484
+udać	to pretend (perfective)	1	739489
+poznać	to get to know, to meet (perfective)	9	739484
+dopóki	as long as	25	739488
+zapalniczka	lighter (for cigarettes)	61	739497
 popielniczka	ashtray
-zdalny	remote (adjective)	1	739482
+zdalny	remote (adjective)	25	739488
 pobrać	to download (perfective)	1	739480
-szczęście	happiness, luck	9	739482
+szczęście	happiness, luck	65	739496
 zgodny	compatible (adjective)
-ruch	movement	2	739480
+ruch	movement	14	739483
 wiadomość	message
-wiadomy	known
-słowo	word	2	739480
-dostać	to get, to receive (intransitive, perfective)
+wiadomy	known	1	739488
+słowo	word	11	739484
+dostać	to get, to receive (intransitive, perfective)	5	739483
 dostawać	to get, to receive (intransitive, imperfective)
 wskazać	to indicate (perfective)
 pokazać	to show (perfective)	1	739480
-gówno	crap
-brzmieć	to sound, to be heard (intrasitive, imperfective)
+gówno	crap	1	739488
+brzmieć	to sound, to be heard (intrasitive, imperfective)	1	739490
 raczej	rather
-powinien	ought
-zmienić	to change (perfective)
+powinien	ought	1	739497
+zmienić	to change (perfective)	1	739482
 zabrać	to take away (perfective)
-martwić	to burden, to afflict, to worry, to disturb (transitive, imperfective)
+martwić	to burden, to afflict, to worry, to disturb (transitive, imperfective)	30	739489
 martwić się	to worry (intransitive, imperfective)
-twardy	hard, tough	1	739480
-miękki	soft	2	739482
+twardy	hard, tough	65	739496
+miękki	soft	8	739483
 mięknąć	to soften (intransitive, imperfective)
 twardnieć	to harden (intransitive, imperfective)
 zmiękczać	to soften (transitive, imperfective)
 zmiękczyć	to soften (transitive, perfective)
 utwardzić	to harden (transitive, perfective)
-twardziel	tough guy
+twardziel	tough guy	53	739497
 pisadło	writing instrument
-główny	main	1	739482
+główny	main	61	739497
 przepis	recipe
-morda	face (of an animal)
-twarz	face (human)	1	739480
+morda	face (of an animal)	1	739488
+twarz	face (human)	10	739482
 przynajmniej	at least	1	739480
-ziemia	earth	2	739480
-długopis	ballpoint pen	1	739480
-ołówek	pencil
+ziemia	earth	18	739484
+długopis	ballpoint pen	37	739489
+ołówek	pencil	1	739496
 ołów	lead (pb)	1	739480
-bogaty	rich
+bogaty	rich	1	739489
 zmęczenie	tiredness
 zmęczony	tired	1	739480
 biedny	poor
 kościół	church
-towarzyski	sociable	1	739480
-brudny	dirty	2	739480
-ładny	pretty
-brzydki	ugly
+towarzyski	sociable	41	739490
+brudny	dirty	2	739483
+ładny	pretty	53	739496
+brzydki	ugly	1	739482
 przystojny	handsome	1	739482
 szpital	hospital	1	739480
 dworzec	station (public transport)
 ciasto	cake
 marchew	carrot (mass noun)	1	739482
-marchewka	carrot (a piece)
+marchewka	carrot (a piece)	1	739497
 zeszyt	notebook, exercise book	1	739482
-stały	permanent
-pochodzić	to originate, to be derived, to come (intransitive, imperfective)	1	739482
-bohater	hero
-góra	mountain	1	739480
+stały	permanent	1	739484
+pochodzić	to originate, to be derived, to come (intransitive, imperfective)	9	739484
+bohater	hero	1	739488
+góra	mountain	37	739489
 górny	upper
 dolny	lower
 wspaniały	magnificent
-ogół	the whole, entirety
-ogólny	general (adjective)
-półrocze	half-year
-półtora	1.5
-wyspa	island
+ogół	the whole, entirety	1	739496
+ogólny	general (adjective)	61	739497
+półrocze	half-year	1	739483
+półtora	1.5	1	739484
+wyspa	island	1	739489
 półprzewodnik	semiconductor
-wór	large bag, sack
-pojęcie	concept, idea, notion	6	739481
-skarb	treasure	1	739482
-wybaczyć	to forgive (perfective)
+wór	large bag, sack	1	739483
+pojęcie	concept, idea, notion	70	739497
+skarb	treasure	61	739497
+wybaczyć	to forgive (perfective)	1	739483
 cieszyć	to rejoice (imperfective)
-krew	blood	1	739482
+krew	blood	57	739496
 należy	one should
-warto	it is worth
+warto	it is worth	6	739484
 wart	worth
-dziwny	strange	2	739480
-przeciw	against
+dziwny	strange	70	739497
+przeciw	against	1	739483
 ruszać	to move, to dislodge (transitive, imperfective)
 ruszyć	to move, to stir (transitive, perfective)
 strona	side, page	1	739482
-miasto	city	10	739482
-miejski	urban
+miasto	city	11	739482
+miejski	urban	1	739490
 siodło	saddle
 strzemię	stirrup
 jeździć	to ride (intransitive, indeterminate, imperfective)
-jechać	to ride, to drive (intransitive, determinate, imperfective)	1	739482
+jechać	to ride, to drive (intransitive, determinate, imperfective)	1	739483
 ogłowie	bridle
-współpraca	cooperation	1	739482
-śpiewać	to sing (imperfective)	3	739480
-tłumaczyć	to translate, to interpret (imperfective)
-obchodzić	to celebrate (imperfective)
-lecz	but (l:)	1	739482
+współpraca	cooperation	61	739497
+śpiewać	to sing (imperfective)	11	739497
+tłumaczyć	to translate, to interpret (imperfective)	1	739484
+obchodzić	to celebrate (imperfective)	1	739483
+lecz	but (l:)	25	739488
 rada	counsel, counsil, advice	1	739480
-zewnątrz	outside	1	739480
-wypadek	accident
+zewnątrz	outside	41	739490
+wypadek	accident	1	739482
 zależeć	to depend (imperfective)
-napis	inscription
+napis	inscription	1	739484
 patrzeć	to look at (perfective)
 wkrótce	soon, shortly
 tak zwany	so called
 zdjąć	to remove, to take off, to photograph (perfective)
-zdjęcie	photograph	1	739482
-gość	guest
-walczyć	to fight (imperfective, (to be involved in a physical confrontation)
-walka	combat
-zadzwonić	to ring, to call (perfective)
-nagły	sudden
-niestety	unfortunately
+zdjęcie	photograph	30	739489
+gość	guest	22	739489
+walczyć	to fight (imperfective, (to be involved in a physical confrontation)	5	739484
+walka	combat	2	739483
+zadzwonić	to ring, to call (perfective)	5	739489
+nagły	sudden	1	739497
+niestety	unfortunately	25	739490
 prawdopodobny	probable
 -podobny	-often ( -like, quasi-, pseudo-)
 częsty	frequent
 rzadki	rare	1	739482
 powrót	returning, the act of returning	1	739482
-pocałunek	kiss
+pocałunek	kiss	1	739489
 zdanie	sentence
-znak	sign	10	739482
+znak	sign	70	739497
 całkiem	quite (adverb)	2	739482
-wybrać	to choose (perfective)	1	739480
+wybrać	to choose (perfective)	14	739483
 przesłać	to transfer (perfective)
 poprawiać	to improve (transitive, imperfective)
 poprawić	to improve (transitive, perfective)
 poprawnie	correctly	9	739482
 ostatnio	lately, recently
 zaproszenie	invitation
-znajomy	acquaintance (masculine)	1	739482
-wysyłać	to send (imperfective)	1	739480
+znajomy	acquaintance (masculine)	59	739496
+wysyłać	to send (imperfective)	34	739488
 wysłać	to send (perfective)
-wzgląd	regard	1	739482
-grypa	flu	1	739482
+wzgląd	regard	29	739489
+grypa	flu	10	739484
 sprawdzić	to check (perfective)	1	739482
 ćwiczyć	to practise (imperfective)
-poniżej	below (:j)	1	739482
-dawno	long ago	3	739480
+poniżej	below (:j)	57	739496
+dawno	long ago	3	739484
 wrażenie	impression
-jak się podoba	how do you like	1	739482
-wersja	version	1	739480
-zazwyczaj	usually
+jak się podoba	how do you like	61	739497
+wersja	version	69	739497
+zazwyczaj	usually	10	739484
 przeprowadzać	to carry out, to move (to change residence) (imperfective)
-odwiedzać	to visit (imperfective)
+odwiedzać	to visit (imperfective)	1	739490
 rzeczywiście	indeed
-miara	measure	1	739480
-płacić	to pay (imperfective)
+miara	measure	17	739484
+płacić	to pay (imperfective)	5	739497
 dostanę	I get (imperfective)
-czuję	I feel (imperfective)
-chcę	I want (imperfective)	2	739480
+czuję	I feel (imperfective)	5	739483
+chcę	I want (imperfective)	2	739490
 chciałabyś	you would want (feminine, imperfective)
-chciałbym	I would want (masculine, imperfective)
-wstępny	preliminary	2	739480
+chciałbym	I would want (masculine, imperfective)	1	739483
+wstępny	preliminary	38	739489
 wstęp	admission	1	739482
-idę	I go (imperfective, determinate, on foot)
+idę	I go (imperfective, determinate, on foot)	25	739490
 szedłem	I went (masculine, imperfective, determinate, on foot)
 będę szedł	I will go (masculine, imperfective)
 pójdę	I will go (masculine, perfective)
-miałem	I had (masculine, imperfective)
-miałbym	I would have (masculine, imperfective)	1	739482
+miałem	I had (masculine, imperfective)	25	739488
+miałbym	I would have (masculine, imperfective)	1	739496
 będę miał	I will have (masculine, imperfective)
 mienie	property (object of ownership)
 kłamać	to lie (tell false, imperfective)
 śpioch	sleepyhead
-próbowałem	I tried (masculine, imperfective)	1	739482
-próbuj	try (imperative, second person singular)
-zwykle	usually (:w:)
+próbowałem	I tried (masculine, imperfective)	1	739489
+próbuj	try (imperative, second person singular)	1	739489
+zwykle	usually (:w:)	1	739482
 bać	to fear (imperfective)
 boję się	I'm afraid of
-bałem się	I was afraid of	1	739482
-powiem ci	I tell you
-kawaler	bachelor
-zamiast	instead	11	739482
+bałem się	I was afraid of	2	739482
+powiem ci	I tell you	6	739483
+kawaler	bachelor	29	739497
+zamiast	instead	16	739483
 uczyłem się	I did study (imperfective)
 używać	to use (imperfective)
 męczyć	to tire (imperfective)
@@ -713,202 +713,202 @@ używam	I use (imperfective)	1	739480
 sprzyjać	to favour (imperfective)
 przyjaźń	friendship	1	739482
 przyjazny	friendly
-będę mógł	I will be able to (masculine)
-mogłem	I could (m.)	1	739482
+będę mógł	I will be able to (masculine)	1	739488
+mogłem	I could (m.)	1	739497
 mógłbym	I would be able (m.)	2	739480
 jem	I eat
-jadłem	I ate (m.)
+jadłem	I ate (m.)	1	739482
 będę jadł	I will eat (m.)
-jedz	eat (imperative, second person singular)
-jazda	ride (noun)
+jedz	eat (imperative, second person singular)	1	739484
+jazda	ride (noun)	1	739482
 jadę	I go (to travel, imperfective, determinate, not on foot)
-poziom	level	1	739482
-teatr	theatre
+poziom	level	31	739489
+teatr	theatre	1	739484
 zadanie	task
-odmienny	different
-zobaczę ją	I will see her (perfective, accusative)
+odmienny	different	1	739497
+zobaczę ją	I will see her (perfective, accusative)	1	739496
 widzę go	I see him (imperfective, accusative)
 szłaś	you went (imperfective, feminine, determinate, on foot)
 skromny	modest
-basen	(swimming) pool
-plaża	beach	1	739480
-mądry	wise	1	739480
-można	one can	1	739482
-idź	go (imperative, second person singular, on foot, determinate)	1	739482
+basen	(swimming) pool	1	739497
+plaża	beach	37	739489
+mądry	wise	69	739497
+można	one can	2	739482
+idź	go (imperative, second person singular, on foot, determinate)	10	739484
 myślałem	I thought (masculine, imperfective)
 przestań	stop (imperative 2nd p. s., perfective)
-zamknąć	to close (perfective)	2	739480
+zamknąć	to close (perfective)	2	739489
 zamykać	to close (imperfective)
-zrób	do (imperative, perfective, 2nd p. s.)	2	739480
+zrób	do (imperative, perfective, 2nd p. s.)	70	739497
 powinienem	I ought
-najpierw	first (adverb)	3	739480
+najpierw	first (adverb)	59	739496
 uważać	to consider
 wymówka	excuse
-dorosły	adult	1	739480
+dorosły	adult	33	739488
 złamać	to break (break into pieces, perfective)
 złamany	broken
-po pracy	after work
+po pracy	after work	1	739483
 spotkaliśmy	we met	2	739482
-łódź	boat
-jej	her (possessive pronoun)
-kaszleć	to cough (imperfective)	2	739482
+łódź	boat	21	739488
+jej	her (possessive pronoun)	9	739484
+kaszleć	to cough (imperfective)	63	739497
 ciężki	heavy
 wielbłąd	camel
-mózg	brain
-słoik	jar
+mózg	brain	1	739482
+słoik	jar	37	739497
 zacząć	to begin (perfective)
 obiecać	to promise (perfective)
-łóżko	bed
-zespół	team, band
+łóżko	bed	1	739497
+zespół	team, band	1	739482
 unikać	to avoid (imperfective)
-uniknąć	to avoid (perfective)
-wstawać	to get up (to rise from bed, imperfective)	2	739480
+uniknąć	to avoid (perfective)	1	739482
+wstawać	to get up (to rise from bed, imperfective)	3	739482
 wstać	to get up (to rise from bed, perfective)
-umówić	to make an appointment (imperfective, reflexive, intransitive)	1	739482
-umówimy się	we make an appointment (imperfective)
-spotkajmy się	let's meet (perfective, imperative, 1p plural)
-biorę	I take (imperfective)	1	739482
+umówić	to make an appointment (imperfective, reflexive, intransitive)	5	739489
+umówimy się	we make an appointment (imperfective)	1	739484
+spotkajmy się	let's meet (perfective, imperative, 1p plural)	1	739489
+biorę	I take (imperfective)	6	739483
 brałem	I took (imperfective)
 bierzesz	you take (imperfective)
-kanapka	sandwich
-widelec	fork (eating utensil)	1	739482
-łyżka	spoon
-nóż	knife
+kanapka	sandwich	62	739497
+widelec	fork (eating utensil)	61	739497
+łyżka	spoon	57	739497
+nóż	knife	1	739482
 taca	tray
-talerz	plate
-wieprzowina	pork
-świnia	pig	1	739480
-kogut	rooster (male chicken)
-indyk	turkey (bird)
-most	bridge	1	739482
-fart	luck (colloquial)
-winda	elevator
-cywilizacja	civilisation	5	739482
-keczup	ketchup
-biznes	business
-lustro	mirror
-usunąć	to remove
+talerz	plate	1	739484
+wieprzowina	pork	1	739497
+świnia	pig	9	739482
+kogut	rooster (male chicken)	1	739482
+indyk	turkey (bird)	1	739497
+most	bridge	61	739497
+fart	luck (colloquial)	1	739497
+winda	elevator	1	739483
+cywilizacja	civilisation	61	739496
+keczup	ketchup	1	739482
+biznes	business	1	739497
+lustro	mirror	1	739484
+usunąć	to remove	1	739482
 ci dwaj wielcy mężczyźni	these two large men	1	739482
 te dwie piękne kobiety	these two beautiful women
-moi dwaj szybcy chłopcy	my two quick boys
+moi dwaj szybcy chłopcy	my two quick boys	26	739490
 jednak	however	2	739482
-źle	badly
+źle	badly	1	739484
 źródło	source, spring (water source)	1	739482
-pomogę	I help (perfective)
+pomogę	I help (perfective)	1	739489
 pomagać	to help (imperfective)
-pomagam	I help (imperfective)
+pomagam	I help (imperfective)	1	739483
 tędy	this way (pronoun)
-według	according to	1	739482
+według	according to	33	739490
 ponad	over, above
-chociaż	although, at least	1	739480
+chociaż	although, at least	17	739484
 kłopot	trouble	1	739480
-szansa	chance
+szansa	chance	2	739483
 zatrzymać	to stop, to staunch (transitive, perfective)
 przyjaciel	friend
-szkoda	damage, pity, kár	1	739482
+szkoda	damage, pity, kár	3	739482
 pogadać	to talk, to chat (colloquial, intransitive, perfective)	1	739482
-pogadajmy o	let's talk about (colloquial)	1	739480
+pogadajmy o	let's talk about (colloquial)	41	739490
 zaczynać	to begin (imperfective)
-cicho	quietly
-głośny	loud
-zapomnieć	to forget (perfective)
-zapomniałem jego twarz	I forgot his face	5	739482
-nie zapomniałem jego twarzy	I didn't forget his face
-zgubić	to lose, to misplace (perfective)
-zgubiłem klucze	I lost the keys	1	739480
-obraz	picture, image	2	739480
-obrazy	pictures, images
+cicho	quietly	25	739497
+głośny	loud	2	739484
+zapomnieć	to forget (perfective)	1	739483
+zapomniałem jego twarz	I forgot his face	65	739497
+nie zapomniałem jego twarzy	I didn't forget his face	1	739482
+zgubić	to lose, to misplace (perfective)	1	739497
+zgubiłem klucze	I lost the keys	70	739497
+obraz	picture, image	70	739497
+obrazy	pictures, images	10	739484
 konie	horses
 ogórki	cucumbers
-widzę chłopców	I see boys (plural accusative)
+widzę chłopców	I see boys (plural accusative)	49	739496
 on lubi zwierzęta	he likes animals (plural accusative)	1	739482
 Amerykanin	American
-Rosjanin	Russian
+Rosjanin	Russian	1	739490
 Amerykanie	Americans (nominative plural)
 Rosjanie	Russians (nominative plural)
-sąsiad	neighbour	1	739480
-sąsiedzi	neighbours (nominative plural)
+sąsiad	neighbour	9	739482
+sąsiedzi	neighbours (nominative plural)	1	739484
 lekarze	doctors (nominative plural)	1	739482
-rzeczownik	noun
-czasownik	verb
-przymiotnik	adjective
-przysłówek	adverb
+rzeczownik	noun	1	739482
+czasownik	verb	9	739484
+przymiotnik	adjective	1	739497
+przysłówek	adverb	6	739483
 zaimek	pronoun
-żołnierz	soldier
+żołnierz	soldier	5	739496
 widelce	forks (eating utensils, nominative plural)
-noże	knives (eating utensils, nominative plural)	1	739480
+noże	knives (eating utensils, nominative plural)	13	739483
 listonosz	postman
-przynieść	to bring (perfective)	1	739482
-złapać	to catch (perfective)
+przynieść	to bring (perfective)	5	739483
+złapać	to catch (perfective)	1	739497
 wychowanek	fosterling (male)
 wychowanka	fosterling (female)
 także	also (t:)
 bić	to beat, to hit (imperfective)	3	739480
 gruby	thick, fat	1	739482
 z góry dziękuję	Thank you in advance
-lecieć	to fly, to hurry (imperfective)
-statek	ship, vessel
+lecieć	to fly, to hurry (imperfective)	57	739497
+statek	ship, vessel	2	739483
 wszędzie	everywhere
 dół	bottom (noun)
-w dół	downward (adverb)
-zupełnie	completely, absolutely (z:)	1	739480
-czyli	in other words	1	739480
-kraj	country
+w dół	downward (adverb)	1	739483
+zupełnie	completely, absolutely (z:)	33	739488
+czyli	in other words	65	739496
+kraj	country	1	739483
 widzenie	vision, sight
-zapomnij	forget (2nd p. s. imperative, perfective)	1	739482
-otwórz	open (2nd p. s. imperative, perfective)	2	739480
-głupi	stupid	2	739482
-odejść	to go away, to pass away (perfective)
-odejdź ode mnie	get away from me (imperative)
+zapomnij	forget (2nd p. s. imperative, perfective)	37	739497
+otwórz	open (2nd p. s. imperative, perfective)	34	739488
+głupi	stupid	6	739483
+odejść	to go away, to pass away (perfective)	1	739483
+odejdź ode mnie	get away from me (imperative)	1	739483
 zabierz	take away (2nd p. s. imperative, perfective)
 wystarczająco	sufficiently	1	739480
 nagle	suddenly
 wezmę	I will take (perfective)	1	739482
-większość	majority
-błąd	mistake, error
+większość	majority	1	739484
+błąd	mistake, error	1	739496
 błędny	wrong, erroneous
 obiecywać	to promise (imperfective)
-obiecuję	I promise (imperfective)
-zatem	therefore (z: conjunction)
-istnieć	to exist (imperfective)	10	739482
+obiecuję	I promise (imperfective)	5	739484
+zatem	therefore (z: conjunction)	33	739497
+istnieć	to exist (imperfective)	11	739482
 stój	stop, halt, stand (2nd p. s. imperative, imperfective)	1	739480
-noga	leg	1	739480
-prawdziwy	real, genuine, authentic
-nic nie widać	nothing can be seen
-jak widać	as shown, as seen	1	739482
-zająć	to occupy (perfective)
+noga	leg	9	739482
+prawdziwy	real, genuine, authentic	1	739483
+nic nie widać	nothing can be seen	9	739484
+jak widać	as shown, as seen	5	739483
+zająć	to occupy (perfective)	1	739482
 zajmę	I occupy
 wiek	age, century
 umrzeć	to die (perfective)
-umrę	I die (perfective)
+umrę	I die (perfective)	1	739497
 umrze	dies (3p. s. , perfective)
 schody	stairs
 obiecam	I promise (perfective)
 przyjść	to arrive, to come (perfective)
 przyjdę	I arrive (perfective)
-tyłek	butt (colloquial)
+tyłek	butt (colloquial)	29	739489
 niby	as if, kind of (adverb)
 nienawidzić	to hate (imperfective)
 boleć	to hurt, to ache (imperfective)
-boli mnie ręka	my hand hurts
-znajdę	I find (perfective)	2	739480
+boli mnie ręka	my hand hurts	54	739496
+znajdę	I find (perfective)	18	739484
 istnienie	existence
 martwy	dead
 proszek do prania	washing powder
 uwielbiać	to adore, to like, to love (imperfective)
-chomik	hamster
+chomik	hamster	34	739497
 etap	age, phase, stage
 nienawiść	hatred
-słaby	weak
+słaby	weak	1	739483
 moc	might, force, power(physics)
-urlop	holiday
+urlop	holiday	5	739484
 mogli	they could
-brak	nincs
-przykład	example
-pomoże	helps (3rtd person, perfective)
+brak	nincs	1	739484
+przykład	example	1	739489
+pomoże	helps (3rtd person, perfective)	1	739484
 dawny	former, past, distant (in time) (adjective)
-dawno tu nie byłem	I have not been here for a long time	2	739480
-zobacz	see (imperative, 2ps, perfective)
+dawno tu nie byłem	I have not been here for a long time	38	739489
+zobacz	see (imperative, 2ps, perfective)	29	739489
 całkowicie	completely, entirely (c:)
 ciąg	sequence
 ciągnąć	to pull (imperfective)
@@ -916,18 +916,18 @@ ciągnik	tractor
 akurat	at the moment, at this very moment (adverb)
 migdał	almond
 przerwa	break, interruption, gap
-bez przerwy	nonstop	1	739482
+bez przerwy	nonstop	2	739488
 gwizdek	whistle
-silny	strong	1	739480
-nos	nose	1	739480
+silny	strong	37	739489
+nos	nose	69	739497
 rosnąć	to grow (imperfective)	1	739482
 urosnąć	to grow (perfective)
 rośniemy	we grow (imperfective)
-rosnę	I grow (imperfective)	1	739482
+rosnę	I grow (imperfective)	61	739497
 pobierzemy się	we take each other, we marry each other (perfective)
-pobiorę	I take, I grab, I download (perfective)
-strzał	shot (result of launching a projectile)
-strzała	arrow (projectile)
+pobiorę	I take, I grab, I download (perfective)	1	739482
+strzał	shot (result of launching a projectile)	1	739482
+strzała	arrow (projectile)	1	739483
 padać	to fall (imperfective)	1	739482
 padam	I fall (imperfective)	10	739482
 mnóstwo	plenty
@@ -935,151 +935,151 @@ rozśmieszyć	to amuse (perfective)
 przekomarzać się	to banter
 opiekun	guardian, babysitter, suprevisor
 usta	mouth	1	739482
-związek	relationship, connection	1	739482
-Związek Radziecki	Soviet Union
-związek zawodowy	labour union
-chory	ill, sick
-ślub	wedding
-osobiście	personally
+związek	relationship, connection	29	739489
+Związek Radziecki	Soviet Union	1	739489
+związek zawodowy	labour union	1	739488
+chory	ill, sick	1	739484
+ślub	wedding	1	739483
+osobiście	personally	11	739484
 gorzej	worse (adverb)
-pora roku	season (of the year)
+pora roku	season (of the year)	17	739497
 jedyny	only (adjective, egyetlen)
 zginąć	to perish, to be ruined (perfective)
 korekta	correction, proofreading
 szczęśliwy	lucky, happy
-zamiar	intention
-węgiel	coal, carbon
-kac	hangover
+zamiar	intention	1	739490
+węgiel	coal, carbon	1	739482
+kac	hangover	1	739482
 powstawać	to arise, to rise up (imperfective)
 świeży	fresh
-świeższy	fresher (adjective)
-pasażerowie	passengers (nominative plural)	1	739482
-pasażerski	passenger (adjective)
+świeższy	fresher (adjective)	1	739488
+pasażerowie	passengers (nominative plural)	5	739483
+pasażerski	passenger (adjective)	1	739484
 stojący	standing (adjective)	1	739482
 powinnaś	you ought to (feminine)
 powinni	they ought to (masculine personal)
 poręcz	handrail
 poręczenie	warranty, guarantee
 poręczać	to guarantee, to vouch for, kezeskedni (imperfective)
-ręczny	manual, hand-held, kézi	2	739480
+ręczny	manual, hand-held, kézi	2	739484
 poręczyciel	guarantor
-hamulec	break, fék
+hamulec	break, fék	1	739482
 hamować	to brake (fékezni, imperfective)
 rączka	handle, fogantyú
 słup	pole, pillar, column
 trwać	to last, to persist (imperfective)
-krótki	short
+krótki	short	1	739484
 krótszy	shorter (adjective)	1	739482
 krótko	briefly, shortly (adverb)
-krócej	shorter (adverb)	1	739482
-dłuższy	longer (adjective)
+krócej	shorter (adverb)	1	739496
+dłuższy	longer (adjective)	9	739484
 dłużej	longer (adverb)	1	739480
 stolica	capital
 zabytek	monument
-różnica	difference	1	739482
+różnica	difference	10	739484
 kłamstwo	lie (falsehood)
 ściema	bullcrap
-prawie	almost	2	739480
+prawie	almost	7	739483
 wąż	snake
-śpij dobrze	sleep well!	1	739482
-spadaj	beat it! bugger off!
+śpij dobrze	sleep well!	29	739489
+spadaj	beat it! bugger off!	1	739489
 wesoły	merry, cheerful, happy
 wesołych świąt	Merry Christmas!
-weselszy	happier (adjective)
-wesoło	merrily, cheerfully
+weselszy	happier (adjective)	53	739496
+wesoło	merrily, cheerfully	1	739483
 plecak	backpack	2	739480
-witam ponownie	Welcome back
+witam ponownie	Welcome back	1	739483
 włoski	Italian
-włochy	Italy	1	739480
+włochy	Italy	37	739489
 z rosji	from Russia
 na węgrzech	in Hungary
 niemcy	Germany
-w Niemczech	in Germany
+w Niemczech	in Germany	2	739484
 niemiec	German
 fałszywy	fake, false	1	739480
-interesujący	interesting	1	739480
+interesujący	interesting	1	739489
 krzesło	chair	1	739482
 w każdym razie	in any case, at any rate	2	739480
-po rosyjsku	in Russian
-hiszpania	Spain
+po rosyjsku	in Russian	1	739482
+hiszpania	Spain	1	739482
 szczupły	slim, slender
-jak ona wygląda	What does she look like?
+jak ona wygląda	What does she look like?	25	739488
 radość	enjoyment, happiness, pleasure
 rozdział	chapter
-budynek	building
+budynek	building	5	739483
 buduję	I build (imperfective)	1	739482
 użyteczny	useful
 użytkownik	user
-dysk twardy	hard disk	1	739482
+dysk twardy	hard disk	5	739483
 węgierka	Hungarian (feminine)	2	739480
-słowacki	Slovak (adjective, non pers.)	2	739480
+słowacki	Slovak (adjective, non pers.)	51	739496
 słowaczka	Slovak (adjective, feminine pers)
 słowak	Slovak (adjective, masculin pers.)
-słowacja	Slovakia
-finlandia	Finnland	1	739480
+słowacja	Slovakia	1	739482
+finlandia	Finnland	33	739488
 fiński	finnish	1	739480
 święty	holy, sacred
 święto	holiday, ünnepnap
 świetny	excellent, great (adjective)
 lekki	light, lightweight
-światło	light, fény	1	739480
+światło	light, fény	41	739490
 pogląd	view (opinion, judgement)
-światopogląd	worldview
-światłość	light, brightness, luminosity
+światopogląd	worldview	5	739489
+światłość	light, brightness, luminosity	1	739497
 oglądać	to watch (imperfective)
 rodzić	to give birth (imperfective)
 poród	childbirth, delivery, labor
 rodzimy	native, indigenous
-światowy	worldly, worldwide, global
-międzynarodowy	international
-naród	nation	1	739482
+światowy	worldly, worldwide, global	1	739484
+międzynarodowy	international	29	739489
+naród	nation	5	739483
 narodowość	nationality
-liczyć	to count (imperfective)
-liczba	number (l:)
-liczny	numerous (l:)
-liczba mnoga	plural (word in plural form)
-mnogi	numerous, plural (m:)
-na świecie	in the world (locative)
+liczyć	to count (imperfective)	1	739497
+liczba	number (l:)	29	739489
+liczny	numerous (l:)	53	739497
+liczba mnoga	plural (word in plural form)	29	739497
+mnogi	numerous, plural (m:)	1	739482
+na świecie	in the world (locative)	1	739483
 przeszły	past (adjective)
-parasol	umbrella	1	739480
+parasol	umbrella	17	739484
 portfel	wallet
 krawat	necktie	1	739482
-przeszłość	past (noun)
+przeszłość	past (noun)	2	739484
 przyszłość	future (noun)
-jaka szkoda	What a pity!
+jaka szkoda	What a pity!	1	739489
 palenie szkodzi zdrowiu	Smoking is bad for health
-szkodliwy	harmful, damaging
+szkodliwy	harmful, damaging	1	739483
 nieszkodliwy	harmless	1	739482
-paczka	packet, package, parcel
-puszka	can, tin	1	739482
-bufor	buffer (computing)
+paczka	packet, package, parcel	1	739489
+puszka	can, tin	25	739488
+bufor	buffer (computing)	1	739482
 w ogóle	in general (adverb)
 rozkaz	order, command
 ponownie	again, anew (p:)	1	739480
-pewność	certainty
+pewność	certainty	21	739488
 wreszcie	finally, eventually, after all (adverb)
-niektóry	some people (pronoun)
-ogień	fire
-ognisko	bonfire, campfire
-ognisty	fiery
-sen	sleep, dream (noun)
+niektóry	some people (pronoun)	2	739483
+ogień	fire	1	739488
+ognisko	bonfire, campfire	21	739489
+ognisty	fiery	1	739490
+sen	sleep, dream (noun)	21	739489
 wrzeszczeć	to scream (imperfective)
 ciężar	weight, burden
-sztanga	barbell
+sztanga	barbell	1	739483
 hantle	dumbbell
-podnieść	to pick up, to put up (perfective)	1	739480
-mimo	despite, in spite of (preposition)	1	739480
+podnieść	to pick up, to put up (perfective)	13	739483
+mimo	despite, in spite of (preposition)	33	739488
 czy słychać mnie	do you hear me
 słychać o	is said about
 co słychać	What's up?
 ból	pain, acheing	1	739480
-znaczenie	meaning, significance, sense of sg	1	739480
-patrz	have a look (2ps imperative, imperfective)	1	739482
+znaczenie	meaning, significance, sense of sg	9	739482
+patrz	have a look (2ps imperative, imperfective)	1	739497
 on patrzy	he looks at (imperfective)
-patrzę	I look at (imperfective)	1	739482
+patrzę	I look at (imperfective)	30	739489
 stamtąd	from there (adverb)
 szczerze	frankly, sincerely, honestly
-śmieszny	ridiculous, funny	1	739482
+śmieszny	ridiculous, funny	5	739483
 przyniosę	I bring (perfective)
 on przyniesie	he brings (perfective)
 przyniosłem	I brought (masculine, perfective)
@@ -1087,28 +1087,28 @@ on przyniósł	he brought (perfective)
 ona przyniosła	she brought (perfective)
 pływać	to swim (imperfective)
 pływam	I swim (imperfective)
-wodoszczelny	waterproof, watertight	1	739482
-szczelny	tight, hermetic
+wodoszczelny	waterproof, watertight	6	739483
+szczelny	tight, hermetic	1	739483
 smutny	sad, upset	2	739480
 biurowiec	office building
 trzymaj się mocno	hold on strongly
-dźwięk	sound
-dźwiękoszczelny	soundproof
-za chwilę	in a moment
-siła	strength, force
-siły	forces
+dźwięk	sound	61	739497
+dźwiękoszczelny	soundproof	1	739497
+za chwilę	in a moment	1	739496
+siła	strength, force	1	739497
+siły	forces	1	739482
 ciekawy	interesting, curious
-jajo	egg (shorter)
-sprawdź	check (2ps imperative, perfective)	1	739482
+jajo	egg (shorter)	1	739482
+sprawdź	check (2ps imperative, perfective)	5	739483
 siadać	to sit down (imperfective)
 siadaj	sit down (2ps imperative, imperfective)
-niesamowity	uncanny, eerie, indescribable
+niesamowity	uncanny, eerie, indescribable	1	739489
 sporo	quite a lot (pronoun)
 usiądź	sit down (2ps imperative, perfective)
 wieść	to lead, to conduct (transitive, determinate, imperfective)
-wieść	message, news
-więzienie	prison, jail
-więzień	prisoner
+wieść	message, news	1	739483
+więzienie	prison, jail	1	739484
+więzień	prisoner	1	739488
 włączyć	to switch on (perfective)	1	739480
 łączyć	to connect (perfective)
 włączę	I turn on (transitive, perfective)	1	739482
@@ -1116,90 +1116,90 @@ strzelba	rifle
 strzelać	to shoot (imperfective)
 strzelić	to shoot (perfective)
 strzelę	I shoot (perfective)
-strzelam	I shoot (imperfective)
-strzelec	rifleman, shooter, scorer (in sports)
+strzelam	I shoot (imperfective)	1	739488
+strzelec	rifleman, shooter, scorer (in sports)	11	739484
 strzelnica	shooting range	9	739482
-płaca	wage, salary	1	739482
+płaca	wage, salary	9	739497
 bezpłatny	free of charge
 płatność	payment (act of paying)
 zapłata	payment (money paid in exchange for goods or services)
-płatnik	payer
+płatnik	payer	1	739482
 płatek	petal
 faktura	invoice
-pomiń	skip (2ps imperative, perfective)
+pomiń	skip (2ps imperative, perfective)	1	739484
 pamięć	memory, remembrance
-pamiętny	memorable
+pamiętny	memorable	9	739484
 pamiątka	souvenir, memento
 pamiętnik	diary, memoir
 pamiętliwy	unforgiving, rememberer	2	739482
 przygotuję	I prepare (perfective)
-przygotować	to prepare (perfective)
+przygotować	to prepare (perfective)	1	739484
 podobno	supposedly, perhaps (particle)
 potrzeba	need, necessity
-pójdzie	he goes, he walks (perfective)	1	739480
-coraz częściej	more and more often, with increasing frequency (adverb)	1	739482
-boisz się	you are afraid of (imperfective)
-skończę	I end, I finish, I stop (perfectiv)	1	739482
-chcieli	they wanted (imperfective, masc.pers.)
+on pójdzie	he goes, he walks (perfective)	1	739483
+coraz częściej	more and more often, with increasing frequency (adverb)	30	739489
+boisz się	you are afraid of (imperfective)	29	739489
+skończę	I end, I finish, I stop (perfective)	63	739497
+chcieli	they wanted (imperfective, masc.pers.)	5	739489
 kran	tap, faucet
-potrafić	to be able to
-potrafię	I am able to
-wybór	choice
+potrafić	to be able to	1	739484
+potrafię	I am able to	1	739497
+wybór	choice	1	739489
 wojsko	army
-zamek	castle, lock
+zamek	castle, lock	5	739484
 przechodzę	I pass through, I walk through, I walk by
 bawić	to entertain, to amuse
-bawić się	to have fun with, to play with
-z nimi	with them
+bawić się	to have fun with, to play with	1	739484
+z nimi	with them	35	739496
 starać się	to attempt to, to strive, to try to (imperfective)
 groźny	threatening, dangerous, formidable
 kierownik	manager, supervisor
-kierowca	driver
-kierunek	direction	1	739480
+kierowca	driver	1	739497
+kierunek	direction	69	739497
 kierownica	steering wheel, handlebar, kormány
 kieruję	I drive (a vehicle), I head (being in command of) (imperfective)
-pojazd	vehicle
-mydło	soap	1	739482
-płyn	liquid
-nabywca	buyer, purchaser	1	739482
-zmienię	I change (perfective, transitive)
+pojazd	vehicle	57	739497
+mydło	soap	5	739483
+płyn	liquid	1	739482
+nabywca	buyer, purchaser	53	739497
+zmienię	I change (perfective, transitive)	1	739482
 on zmieni	he changes (perfective, transitive)
-zmieniam	I change (imperfective, transitive)
-on zmienia	he changes (imperfective, transitive)	1	739482
+zmieniam	I change (imperfective, transitive)	1	739483
+on zmienia	he changes (imperfective, transitive)	57	739497
 dwór	court, courtyjard, outsize, udvar
-pusty	empty, hollow	1	739482
-pełny	full
+pusty	empty, hollow	6	739483
+pełny	full	1	739483
 hodować	to breed, to grow (horses?) (imperfective)
 wieś	countryside, village	1	739480
 na wsi	in the countryside
 jeżdżenie	riding, driving (noun)
-przyjemny	pleasant	2	739482
+przyjemny	pleasant	27	739490
 nie da się	there is no way to...
-przy komputerze	at computer
+przy komputerze	at computer	25	739496
 uśmiechać	to smile (reflexive, imperfective)
-ludzie uśmiechają się	people are smiling
+ludzie uśmiechają się	people are smiling	2	739490
 im pomogę	I help them
-biegając	running, jogging (participle)	1	739482
-ona szykuje się do	she is preparing for...
-przyroda	nature
-własny	own (adjective)
+biegając	running, jogging (participle)	5	739484
+ona szykuje się do	she is preparing for...	5	739497
+przyroda	nature	25	739489
+własny	own (adjective)	1	739484
 w ciągu dnia	during the day
-płatki	cereal	2	739480
+płatki	cereal	3	739489
 rogal	kifli, crescent roll	1	739482
 picie	drinking (verbal noun), a drink (noun, colloquial)
 przede wszystkim	first of all (adverb)
 przyda się	could use some (transitive)
-słodki	sweet
-słodszy	sweeter
+słodki	sweet	1	739489
+słodszy	sweeter	1	739483
 słony	salty (taste)
-gorzki	bitter
-kwaśny	sour, acidic	1	739482
-najebany	bebaszott	1	739480
-jebany	baszott
+gorzki	bitter	1	739489
+kwaśny	sour, acidic	10	739484
+najebany	bebaszott	2	739483
+jebany	baszott	21	739489
 pijany	drunk
 jebaniutki	(slang, vulgar, humorous) displaying impressive skill, clever, masterful
 jebać	baszni (j:)	1	739482
-pierdolić	baszni (p:)
+pierdolić	baszni (p:)	6	739483
 beznadziejny	hopeless	2	739480
 chmura	cloud
 niebo	sky
@@ -1208,156 +1208,156 @@ opalanie	sunbathing
 natomiast	whereas, while (conjunction)
 mylić	to make a mistake/an error; to be mistaken; to be wrong (imperfective, reflexive)
 często się mylisz	you are often wrong
-często się mylę	I am often wrong
+często się mylę	I am often wrong	1	739482
 wydaję mi się	it seems to me, I think
 piętro	floor, storey
 na piątym piętrze	on the fifth floor
-wjazd	entry, gateway
-przedmiot	subject (particular area of study)	1	739480
+wjazd	entry, gateway	9	739497
+przedmiot	subject (particular area of study)	17	739484
 milej	more nicely
 dbać o	to take care of, to look after
 dbam o niego	I look after him
-ona przynosi mu	she bring for him (imperfective)
+ona przynosi mu	she brings for him (imperfective)
 głaskać	to pet, to fondle (imperfective)
 odprowadzać	to escort, to accompany (imperfective)
 oprowadzać	to show around, to guide (imperfective)
 odprowadzić	to escort, to accompany (perfective)
 piórnik	pencil case
-gumka	eraser, rubber
+gumka	eraser, rubber	1	739489
 mazak	marker (pen)
 w przerwie	in the break
-dzięki temu	thanks to this
+dzięki temu	thanks to this	1	739482
 dalszy	further, more distant (adjective)
 dalej	further, more distant (adverb)
-nauka	science, study
+nauka	science, study	1	739489
 byt	being, entity
-potrawa	dish, meal (p:)
+potrawa	dish, meal (p:)	1	739497
 zdziwienie	astonishment
 zdziwić się	to be surprised (perfective)
-kumpel	friend (k:)	5	739482
-okulary	glasses	1	739480
-zajrzeć	to look, to peek (perfective, z:)	1	739482
-to nie będzie bolało	it won't hurt
+kumpel	friend (k:)	65	739497
+okulary	glasses	9	739482
+zajrzeć	to look, to peek (perfective, z:)	1	739484
+to nie będzie bolało	it won't hurt	1	739497
 obawa	fear, anxiety, worry (o:)
 bojaźń	fear (b:)
 bojaźliwy	fearful, timid
-lęk	fear (a phobia; sense of fear induced by something or someone)	1	739480
-obawiam się	I'm afraid (imperfective, o:)
-podać	to pass, to serve, to give (transitive, imperfective)
-pewnik	axiom
-on zajmie	he occupies (perfective)
-zasada	principle, rule
+lęk	fear (a phobia; sense of fear induced by something or someone)	1	739496
+obawiam się	I'm afraid (imperfective, o:)	2	739496
+podać	to pass, to serve, to give (transitive, imperfective)	1	739482
+pewnik	axiom	1	739497
+on zajmie	he occupies (perfective)	1	739496
+zasada	principle, rule	25	739488
 ostrożny	careful, cautious
-znajdź	find (2ps imperative, perfective)	1	739482
+znajdź	find (2ps imperative, perfective)	25	739488
 bezpieczny	safe, secure
 wejdź	come in (2ps imperative, perfective)
 brakować	to lack, to be missing, to reject (imperfective)
 mowa	speech, an oration
-spoko	ok, cool (interjection)
+spoko	ok, cool (interjection)	33	739497
 doskonale	perfectly
 doskonalić	to perfect (transitive, imperfective)
-rodzaj	kind, (taxonomy) genus , (grammar) gender
+rodzaj	kind, (taxonomy) genus , (grammar) gender	25	739489
 uratować	to save, to rescue (perfective)
-prawnik	lawyer, jogász
+prawnik	lawyer, jogász	1	739483
 uprowadzać	to kidnap (imperfective)
-wprowadzać	to introduce (imperfective)
+wprowadzać	to introduce (imperfective)	25	739489
 stanowczy	firm / assertive
 obracać	to rotate, to turn (imperfective)
-początkujący	beginner
+początkujący	beginner	9	739484
 począwszy od	starting from, ranging from
 łatwizna	easy, a piece of cake (noun)
 prawo	law
 próg	doorstep, threshold
-prawny	legal, lawful
-prawnie	legally
+prawny	legal, lawful	1	739484
+prawnie	legally	1	739483
 podstawić	to substitute (perfective)
 obrotowy	rotating, rotary
 podstawka	beer mat, coaster, söralátét
-spodek	saucer, csészealj
+spodek	saucer, csészealj	1	739482
 podkładka	mat, pad, alátét
 filiżanka	cup, csésze, fincan
 szklanka	glass, pohár
 kieliszek	glass, pohár, serleg (diminutive)
 kielich	calyx, glass, pohár, serleg
 nóżka	leg (diminutive) (supporting leg of e.g. kielich)
-rolnik	farmer
-rękawica	glove
-rozkład	schedule, timetable
-podręcznik	textbook, manual, kézikönyv	1	739481
-rękaw	sleeve
+rolnik	farmer	1	739482
+rękawica	glove	10	739497
+rozkład	schedule, timetable	57	739497
+podręcznik	textbook, manual, kézikönyv	1	739483
+rękaw	sleeve	1	739488
 zarząd	administration, council, management
 zarządca	manager (z:)
 żądać	to demand (imperfective)
-żądanie	demand (noun)	2	739480
-powszedni	commonplace (adjective)
-śnieg	snow	1	739482
-brama	gate
+żądanie	demand (noun)	10	739482
+powszedni	commonplace (adjective)	1	739489
+śnieg	snow	61	739497
+brama	gate	1	739482
 odpad	waste, byproduct
 prąd	current, flow (noun)	5	739482
 prądnica	electrical generator
-słownik	dictionary, glossary	2	739480
+słownik	dictionary, glossary	10	739482
 bramkarz	goalkeeper, bouncer, kapus
 gra wstępna	foreplay
-bolesny	painful	1	739480
+bolesny	painful	17	739484
 kaszel	cough (noun)
-młotek	hammer	2	739480
-powietrze	air (noun)
+młotek	hammer	10	739482
+powietrze	air (noun)	1	739482
 prążek	line, stripe
 lodówka	fridge
-klawiatura	keyboard	1	739482
-żywy	alive (adjective)	3	739482
+klawiatura	keyboard	9	739484
+żywy	alive (adjective)	59	739496
 filar	pillar
 brzuch	belly, abdomen
-niedźwiedź	bear
-moda	fashion	10	739482
-pismo	handwriting	1	739481
+niedźwiedź	bear	1	739489
+moda	fashion	38	739489
+pismo	handwriting	13	739484
 sierżant	sergeant
 niszczyć	to destroy (imperfective)
-oddać	to give back, to pay back (perfective)
-oddaj	give back! (2ps. imperative, perfective)
-umarł	he died (perfective)
-część	part, portion, a share
-dowód	evidence
+oddać	to give back, to pay back (perfective)	1	739497
+oddaj	give back! (2ps. imperative, perfective)	1	739490
+on umarł	he died (perfective)
+część	part, portion, a share	1	739490
+dowód	evidence	1	739489
 owszem	certainly, of course (particle)
 rzucić	to throw (perfective)
 rzuć	throw (2nd ps. imperative, perfective)
-kawał	chunk, small piece, a joke
-zajęty	busy, occupied	1	739482
-uczucie	feeling, emotion	1	739480
-potrzebny	necessary
-wyjaśnić	to explain (perfective)	1	739482
+kawał	chunk, small piece, a joke	33	739496
+zajęty	busy, occupied	29	739489
+uczucie	feeling, emotion	17	739484
+potrzebny	necessary	54	739496
+wyjaśnić	to explain (perfective)	5	739483
 wyjaśniać	to explain (imperfective)
 wyjaśnianie	explanation
-z czym	with what	1	739482
+z czym	with what	1	739489
 z kim	with whom
 tuż	almost, nearly, right at (adverb)
-oprócz	apart from, except (preposition)
-rząd	row (noun)
-wyjąć	to take out (perfective)
+oprócz	apart from, except (preposition)	25	739489
+rząd	row (noun)	1	739497
+wyjąć	to take out (perfective)	1	739489
 wyjmę	I take out (perfective)
 straszny	scary, dreaded
-nieco	slightly, somewhat (adverb)
-wśród	among, amidst (preposition)
-przysługa	favour
-glina	clay
-sąd	court of law	1	739480
-czyścić	to clean (imperfective)
+nieco	slightly, somewhat (adverb)	1	739484
+wśród	among, amidst (preposition)	53	739497
+przysługa	favour	25	739489
+glina	clay	9	739484
+sąd	court of law	13	739483
+czyścić	to clean (imperfective)	1	739489
 zamierzać	to intend (imperfective)
 ciąża	pregnancy	1	739482
-kość	bone
+kość	bone	26	739489
 kościec	skeleton (of bones)
-pobliże	vicinity
+pobliże	vicinity	1	739483
 chronić	to protect, to keep safe
-wyraźnie	clearly, distinctly
-siku	pee (noun)	2	739480
-sikać	to piss (imperfective)	1	739480
+wyraźnie	clearly, distinctly	1	739489
+siku	pee (noun)	18	739490
+sikać	to piss (imperfective)	1	739483
 siusiu	piss (childish, noun)
-darmo	free, gratis (adverb)
-ustawka	meeting, tali (slang)
-chusteczka	tissue	1	739482
-przypadek	instance, case, eset
+darmo	free, gratis (adverb)	1	739489
+ustawka	meeting, tali (slang)	1	739497
+chusteczka	tissue	9	739484
+przypadek	instance, case, eset	1	739497
 morderstwo	murder
-chętny	willing (adjective)
+chętny	willing (adjective)	1	739483
 pieprzyć	to pepper (imperfective)	9	739482
 błagać	to plead, to beseech
 zakładać	to put on (imperfective)
@@ -1366,83 +1366,83 @@ zamiany	exchange, swap, conversion (noun)
 zmienna	variable (noun)
 zmienny	changeable, variable (adjective)
 dach	roof	9	739482
-w sądzie	in court (court of law, locative)
-leń	lazy (noun, derogative)
-leniwy	lazy (adjective)	1	739482
-lenistwo	laziness
-boski	divine (adjective)
-cudowny	wonderful, marvelous	2	739480
-urodziny	birthday
+w sądzie	in court (court of law, locative)	21	739489
+leń	lazy (noun, derogative)	1	739484
+leniwy	lazy (adjective)	57	739496
+lenistwo	laziness	1	739482
+boski	divine (adjective)	53	739497
+cudowny	wonderful, marvelous	14	739483
+urodziny	birthday	1	739482
 urodzony	natural-born, native to (adjective)
 wizja	vision (noun, shorter)	9	739482
-badać	to explore, to examine (imperfective)	2	739480
+badać	to explore, to examine (imperfective)	2	739483
 badanie	research, exploration, examination
-badacz	researcher, explorer
+badacz	researcher, explorer	2	739489
 wóz	wagon, cart
-las	forest (noun)	9	739482
-laśny	forest (adjective)	2	739480
-ślad	trace, track
+las	forest (noun)	37	739489
+laśny	forest (adjective)	10	739488
+ślad	trace, track	9	739484
 śledzić	to follow, to trace, to track (imperfective)
-dla komu	for whom? (dative)
-linia	line	1	739480
-liniowy	linear (adjective)
-umiem	I can (know how to do sg. imperfective)
-odbiór	reception
-bliżej	closer, nearer (adverb)
+dla kogo	for whom?	2	739483
+linia	line	69	739497
+liniowy	linear (adjective)	2	739489
+umiem	I can (know how to do sg. imperfective)	1	739497
+odbiór	reception	25	739496
+bliżej	closer, nearer (adverb)	1	739496
 drzewo	tree
 pilny	urgent (adjective)
 w głębi	in depth (locative)
 głęboki	deep (adjective)
 głębia	depth
 czarować	to do magic (imperfective)
-czarownica	witch (feminine)
-czarownik	sorcerer, warlock, wizard (masculine)	6	739481
-równoległy	parallel (adjective)	10	739482
+czarownica	witch (feminine)	1	739484
+czarownik	sorcerer, warlock, wizard (masculine)	10	739482
+równoległy	parallel (adjective)	10	739483
 równolegle	parallel (adverb)	2	739482
-mistrz	master, champion (noun)
-mistrzowie	masters (nominative plural)
+mistrz	master, champion (noun)	30	739489
+mistrzowie	masters (nominative plural)	2	739483
 mistrzostwo	championship, mastery
 pistolet	pistol	2	739480
-wiara	belief, faith
-puścić	to let go, to release (perfective)	1	739480
+wiara	belief, faith	5	739483
+puścić	to let go, to release (perfective)	37	739489
 puść mnie	let go of me!
-opuścić	to abandon, to leave (perfective)	1	739480
-puszczać	to let go, to release (imperfective)
-rozpuścić	to dissolve, to turn into a solution (perfective)
+opuścić	to abandon, to leave (perfective)	1	739497
+puszczać	to let go, to release (imperfective)	5	739483
+rozpuścić	to dissolve, to turn into a solution (perfective)	1	739484
 spuścić	to drain, to flush (toilet), to unleash (perfective)
-wpuścić	to let in (perfective)
+wpuścić	to let in (perfective)	25	739489
 upuścić	to drop, to let go of an object and let it fall (pefective)
 stracić	to lose, to stop owning (perfective)	1	739482
 tracić	to lose, to stop owning (imperfective)
 strata	loss (noun)
-zaczarowany	enchanted, elvarázsolt
-marzyć	to dream (imperfective)	1	739482
-marzenie	dream, whish (noun)	1	739482
+zaczarowany	enchanted, elvarázsolt	5	739483
+marzyć	to dream (imperfective)	5	739496
+marzenie	dream, whish (noun)	9	739489
 pochyłość	slope, inclination (noun)
 pochyły	inclined, sloping (adjective)
 pochylić	to bend down (perfective)
-koślawy	lopsided (adjective)
-komin	chimney
+koślawy	lopsided (adjective)	2	739482
+komin	chimney	53	739496
 okiennica	window shutter
 tył	back (not at front, noun)
-pralka	washing machine
+pralka	washing machine	61	739497
 lansować	to endorse, to promote (imperfective)
-miś	bear (diminutive, maci)	3	739482
-głód	hunger
+miś	bear (diminutive, maci)	59	739496
+głód	hunger	1	739483
 głodzić	to starve (imperfective)
 głodnieć	to become hungry (imperfective)
-głodomór	always hungry, éhező (noun)
-pipka	pussy, pina	1	739482
+głodomór	always hungry, éhező (noun)	1	739488
+pipka	pussy, pina	61	739497
 torba	bag
 powyżej	above (:j)
 zaufaj mi	trust me!
-ofiara	victim, casualty	9	739482
-ofiarować	to sacrifice (imperfective)
+ofiara	victim, casualty	65	739496
+ofiarować	to sacrifice (imperfective)	1	739497
 słońce	sun
 słoneczny	sunny
 twierdzić	to claim (to state a new fact), to maintain (imperfective)
 dowodzić	to prove (imperfective)
-dowieść	to prove (perfective)
+dowieść	to prove (perfective)	1	739497
 otwarty	open (adjective)	2	739482
 zapłacić	to pay (perfective)
 łapać	to catch (imperfective)
@@ -1450,26 +1450,26 @@ złapię	I catch (perfective)
 zwłaszcza	especially, partucularly	1	739482
 zeszły	last, most recent	1	739482
 zwiedzać	to sightsee (imperfective)
-sztuka	art, play (theatrical performance), piece
-biec	to run (imperfective, determinate)	1	739482
+sztuka	art, play (theatrical performance), piece	30	739497
+biec	to run (imperfective, determinate)	10	739489
 biegnę	I run (imperfective, determinate)
 budzić	to wake (transitive, imperfective)
-budzę się	I wake up (imperfective)
-tęsknić	to miss (imperfective)
+budzę się	I wake up (imperfective)	1	739484
+tęsknić	to miss (imperfective)	1	739488
 całować	to kiss (transitive, imperfective)
-całuję	I kiss (transitive, imperfective)
-chorować	to fall ill (imperfective)
-choruję	I fall ill (imperfective)
-zachoruję	I fall ill (perfective)
+całuję	I kiss (transitive, imperfective)	1	739484
+chorować	to fall ill (imperfective)	29	739489
+choruję	I fall ill (imperfective)	25	739489
+zachoruję	I fall ill (perfective)	49	739496
 pocałowaliście	you kissed (pl. masc. perfective)
 pobiegłbym	I would run (masc. perfective)
-obudź go	wake him up! (perfective, imperative)
+obudź go	wake him up! (perfective, imperative)	1	739497
 obudziłem się o ósmej	I woke up at 8 (masculine, perfective)
-tęsknię za tobą	I miss you
-chcemy	we want (imperfective)
+tęsknię za tobą	I miss you	1	739484
+chcemy	we want (imperfective)	1	739497
 zechciałem	I wanted (masc. perfective)
 chronię	I protect (imperfective)
-ochroniliśmy	we protected (masculine, perfective)	2	739482
+ochroniliśmy	we protected (masculine, perfective)	2	739496
 cieszysz się	you are happy (imperfective)
 będziemy się cieszyć	we will be happy (imperfective)
 ucieszę się	I will be happy (perfective)
@@ -1481,25 +1481,25 @@ tnę	I cut (imperfective)
 utną	they will cut (perfective)
 tniesz	you cut (imperfective)
 ciąłem	I was cutting (masc. imperfective)
-ciął	he was cutting (imperfective)
-cięła	she was cutting (imperfective)
+on ciął	he was cutting (imperfective)
+ona cięła	she was cutting (imperfective)
 cięliśmy	we were cutting (masc. imperfective)
 uciąłem	I did cut (masc. perfective)
-utnę	I will cut (perfective)
+utnę	I will cut (perfective)	1	739497
 czuli	they were feeling (masculine, imperfective)
 czuły	they were feeling (non-masculine, imperfective)
 poczułem	I felt (masculine, perfective)
 czyszczę	I'm cleaning (imperfective)
-wczyści	(s)he cleans (perfective)
-chcę	I want (imp.)
+on wczyści	he cleans (perfective)
+chcę	I want (imp.)	29	739496
 zechcą	they want (perf.)
 chcesz	you want (impf.)
-chciał	he wanted (impf.)
-chciała	she wanted (impf.)	1	739482
+on chciał	he wanted (impf.)	1	739484
+ona chciała	she wanted (impf.)	1	739482
 zechcieliby	they would want (masc. perf.)
-chciałem	I wanted (masc. impf.)
+chciałem	I wanted (masc. impf.)	1	739489
 chciałeś	you wanted (masc. impf.)
 chcieliśmy	we wanted (masc. impf.)
-chciałam	I wanted (fem. impf)
+chciałam	I wanted (fem. impf)	1	739484
 chciałaś	you wanted (fem. impf)
-sen	dream, during sleep (noun)	1	739482
+sen	dream, during sleep (noun)	57	739496
