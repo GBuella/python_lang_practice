@@ -1,5 +1,6 @@
+# vim: set nowrap expandtab
 #
-# Copyright 2025 Gabor Buella
+# Copyright 2025-2026 Gabor Buella
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -25,6 +26,7 @@
 # EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 import sys
+import atexit
 import argparse
 import csv
 import random
@@ -36,6 +38,8 @@ parser.add_argument('-Q', help='CSV file path - prepositions', default='pldb_pre
 		dest='prepdb_path')
 parser.add_argument('-W', help='CSV file path - adjectives', default='pldb_adj.csv',
 		dest='adjdb_path')
+parser.add_argument('-E', help='CSV file path - hard ones', default='pldb_hard.csv',
+		dest='hard_path')
 parser.add_argument('-g', help='gender filter', default='all',
 		dest='gender')
 parser.add_argument('-c', help='case filter', default='all',
@@ -56,12 +60,54 @@ parser.add_argument('-w', help='ask adjectives', action='store_true',
 		dest='adjs')
 parser.add_argument('-r', help='randomize case order', action='store_true',
 		dest='rcases')
+parser.add_argument('-M', help='hard nouns only', action='store_true',
+		dest='nounhardonly')
+parser.add_argument('-N', help='hard adjectives only', action='store_true',
+		dest='adjhardonly')
 
 args = parser.parse_args()
 
-words = []
+nouns = []
 preps = {}
 adjs = []
+hard_nouns = set()
+hard_adjs = set()
+hard_change = False
+
+with open(args.hard_path, newline='') as csvfile:
+	datareader = csv.reader(csvfile, delimiter='\t', quotechar='|')
+	for row in datareader:
+		if (len(row) == 0 or row[0].startswith('#')):
+			continue
+		if row[0] == 'adj':
+			for i in range(1, len(row)):
+				hard_adjs.add(int(row[i]))
+		elif row[0] == 'noun':
+			for i in range(1, len(row)):
+				hard_nouns.add(int(row[i]))
+		else:
+			assert False, 'invalid row in hard set'
+
+def add_adj(adj):
+	if args.nounhardonly:
+		if adj['id'] in hard_adjs:
+			adjs.append(adj)
+	else:
+		adjs.append(adj)
+		if adj['id'] in hard_adjs:
+			adjs.append(adj)
+			adjs.append(adj)
+			adjs.append(adj)
+def add_noun(noun):
+	if args.adjhardonly:
+		if noun['id'] in hard_nouns:
+			nouns.append(noun)
+	else:
+		nouns.append(noun)
+		if noun['id'] in hard_nouns:
+			nouns.append(noun)
+			nouns.append(noun)
+			nouns.append(noun)
 
 if args.adjs:
 	with open(args.adjdb_path, newline='') as csvfile:
@@ -71,7 +117,7 @@ if args.adjs:
 		for row in datareader:
 			if len(row) == 0:
 				if hasword:
-					adjs.append(adj)
+					add_adj(adj)
 				hasword = False
 				adj = {}
 			elif not hasword:
@@ -112,7 +158,7 @@ if args.adjs:
 				else:
 					adj['decl']['nonviril_plural'][case] = row[i]
 		if hasword:
-			adjs.append(adj)
+			add_adj(adj)
 
 if args.preps:
 	with open(args.prepdb_path, newline='') as csvfile:
@@ -148,7 +194,7 @@ with open(args.path, newline='') as csvfile:
 	for row in datareader:
 		if len(row) == 0:
 			if (hasword and word['id'] >= args.startid):
-				words.append(word)
+				add_noun(word)
 			word = {}
 			hasword = False
 		elif not hasword:
@@ -209,20 +255,23 @@ with open(args.path, newline='') as csvfile:
 			word['decl'].append(row)
 	if hasword:
 		if word['id'] >= args.startid:
-			words.append(word)
+			add_noun(word)
 
-random.shuffle(words)
+random.shuffle(nouns)
 
-def ask(case, number, answer, ns, prev, gender, no_prep, no_adj):
+def ask(case, number, noun_id, answer, ns, prev, gender, no_prep, no_adj):
+	global hard_change
 	prompt_adj = ''
 	prompt_prep = ''
 	prompt_postp = ''
 	prompt_case = ' ' + case
+	adj_id = -1
 	if (args.adjs and case != 'vocative' and gender != 'pronoun_plural'
 		and gender != 'pronoun' and gender != 'numeral'
 		and not no_adj
 		and gender != 'numeral_plural'):
 		adj = random.choice(adjs)
+		adj_id = adj['id']
 		adjg = gender
 		if ((gender == 'masculine_personal' or gender == 'masculine_animal')
 			and number == 'singular'):
@@ -255,16 +304,44 @@ def ask(case, number, answer, ns, prev, gender, no_prep, no_adj):
 	if resp == 'x':
 		resp = prev
 	c = 0
-	while (resp != answer and resp != answer):
+	while (resp != answer):
 		if resp == '':
 			c += 1
 			if c == 1:
 				print('The word is ' + ns)
 			else:
 				print('It is "' + answer + '"')
-		resp = input(prompt)
+		elif resp == 'q':
+			print('q pressed!')
+			hard_nouns.add(noun_id)
+			hard_change = True
+		elif resp == 'w':
+			print('w pressed!')
+			hard_adjs.add(adj_id)
+			hard_change = True
+		elif resp == 'e':
+			print('e pressed!')
+			hard_nouns.add(noun_id)
+			hard_adjs.add(adj_id)
+			hard_change = True
+		resp = ' '.join(input(prompt).split()).strip()
 
-for picked in words:
+def save_hards():
+	if not hard_change:
+		return
+	with open(args.hard_path, 'w', newline='') as csvfile:
+		writer = csv.writer(csvfile, delimiter='\t', quotechar='|')
+		if len(hard_nouns) > 0:
+			writer.writerow(['noun'] + list(hard_nouns))
+		if len(hard_adjs) > 0:
+			writer.writerow(['adj'] + list(hard_adjs))
+	print('overwritten file: ' + args.hard_path)
+
+atexit.register(save_hards)
+
+print(list(hard_nouns))
+
+for picked in nouns:
 	if (args.number == 'singular' and (
 		picked['gender'] == 'viril_plural'
 		or picked['gender'] == 'nonviril_plural')):
@@ -296,7 +373,7 @@ for picked in words:
 			and picked['gender'] != 'numeral_plural'
 			and picked['gender'] != 'viril_plural'
 			and picked['gender'] != 'nonviril_plural'):
-			ask(d[0], 'singular', d[1], ns, prev, picked['gender'], picked['no_prep'], picked['only_prep'])
+			ask(d[0], 'singular', picked['id'], d[1], ns, prev, picked['gender'], picked['no_prep'], picked['only_prep'])
 			prev = d[1]
 		if (args.number != 'singular'
 			and picked['gender'] != 'pronoun'
@@ -313,5 +390,5 @@ for picked in words:
 				if (len(d) == 2):
 					continue
 				answer = d[2]
-			ask(d[0], 'plural', answer, ns, prev, picked['gender'], picked['no_prep'], picked['only_prep'])
+			ask(d[0], 'plural', picked['id'], answer, ns, prev, picked['gender'], picked['no_prep'], picked['only_prep'])
 			prev = answer

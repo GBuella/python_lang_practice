@@ -1,5 +1,5 @@
 #
-# Copyright 2025 Gabor Buella
+# Copyright 2025-2026 Gabor Buella
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -34,13 +34,15 @@ from datetime import datetime
 def total_sum(terms):
 	return terms[-1]['sum']
 
-def read_terms(path):
+def read_terms(args):
 	id = 0
 	terms = []
-	with open(path, newline='') as csvfile:
+	with open(args.path, newline='') as csvfile:
 		datareader = csv.reader(csvfile, delimiter='\t', quotechar='|')
 		first = True
+		row_number = 0;
 		for row in datareader:
+			row_number = row_number + 1
 			if len(row) == 0:
 				continue
 			if row[0].startswith('#'):
@@ -58,7 +60,9 @@ def read_terms(path):
 				sys.exit(1)
 			score = 0
 			time = 0
-			if len(row) == 4:
+			if (row_number < args.start) or (args.end > 0 and row_number > args.end):
+				score = args.target_count
+			elif len(row) == 4:
 				score = int(row[2])
 				time = int(row[3])
 			term = {'target': row[0], 'def': row[1], 'score': score, 'last': time}
@@ -206,8 +210,10 @@ if __name__ == '__main__':
 			dest='target_count')
 	parser.add_argument('-m', help='merge counts',
 			action='store_true', dest='merge')
+	parser.add_argument('-s', help='starting row', type=int, default=0, dest='start')
+	parser.add_argument('-e', help='ending row', type=int, default=0, dest='end')
 	args = parser.parse_args()
-	id, terms = read_terms(args.path)
+	id, terms = read_terms(args)
 	if len(terms) == 0:
 		sys.exit(0)
 	logpath = args.path + '.log'
